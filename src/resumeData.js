@@ -95,7 +95,7 @@ let resumeData = {
   testimonials: [
     {
       description: "Become who you are",
-      name: "Nietzsche",
+      name: "Friedrich Nietzsche",
     },
     {
       description: "This is a sample testimonial",
