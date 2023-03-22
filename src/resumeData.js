@@ -30,7 +30,7 @@ let resumeData = {
   education: [
     {
       UniversityName: "UTN",
-      specialization: "Digital Marketing and Social Media",
+      specialization: "Digital Marketing & Social Media",
       MonthOfPassing: "Nov",
       YearOfPassing: "2020",
     },
@@ -92,9 +92,9 @@ let resumeData = {
       url: "https://portfolio-te.vercel.app/",
     },
     {
-      name: "Portfolio",
+      name: "My Portfolio",
       description:
-        "Using React, I have created a simple yet effective SPA portfolio to showcase my education and professional experience. This portfolio offers a clear and concise way to present my experience in an attractive manner to potential clients and employers.",
+        "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
       url: "https://portfolio-9h0tnva98-tedelcopp.vercel.app/",
     },
