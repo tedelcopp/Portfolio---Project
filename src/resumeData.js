@@ -1,8 +1,11 @@
 let resumeData = {
+  imagebaseurl: "https://rbhatia46.github.io/",
   name: "Tomás Edelcopp",
-  role: "Full Stack Developer with Front End orientation",
+  role: "Full Stack Developer",
+  linkedinId: "Your LinkedIn Id",
+  skypeid: "Your skypeid",
   roleDescription:
-    "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "I love staying up to date with the latest trends in technology and enjoy continuing to learn and improve my technical skills. In my free time, I also enjoy two hobbies: going for bike rides and scouting for great photography spots.",
   socialLinks: [
     {
       name: "linkedin",
@@ -21,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a recently graduated Full Stack Web Developer and a technology enthusiast who is also pursuing education in Landscaping. I have a Front-end orientation, and I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
+    "I am a recently graduated Full Stack Web Developer with Front End orientation and a technology enthusiast who is also pursuing education in Landscaping. I have a Front-end orientation, and I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
   address: "Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
