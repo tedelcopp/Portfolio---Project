@@ -1,9 +1,6 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
   name: "Tomás Edelcopp",
   role: "Full Stack Developer with Front End orientation",
-  linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
   roleDescription:
     "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   socialLinks: [
@@ -17,6 +14,11 @@ let resumeData = {
       url: "https://github.com/tedelcopp",
       className: "fa fa-github",
     },
+    {
+      name: "gmail",
+      url: "https://github.com/tedelcopp",
+      className: "fa fa-gmail",
+    },
   ],
   aboutme:
     "I am a recently graduated Full Stack Web Developer and a technology enthusiast who is also pursuing education in Landscaping. I have a Front-end orientation, and I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
@@ -24,19 +26,18 @@ let resumeData = {
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
+      UniversityName: "UTN",
+      specialization: "Digital Marketing and Social Media",
+      MonthOfPassing: "Nov",
+      YearOfPassing: "2020",
+    },
+    {
       UniversityName: "Soy Henry",
       specialization: "Full Stack Web Developer",
       MonthOfPassing: "April",
       YearOfPassing: "2023",
       Achievements:
         "Full Stack developer intensive Bootcamp of over 800 hours of coding. Technologies learned: Javascript, React, Redux, HTML5, CSS, Node, Express, PostgreSQL and Sequelize",
-    },
-    {
-      UniversityName: "UTN",
-      specialization: "Digital Marketing and Social Media",
-      MonthOfPassing: "Nov",
-      YearOfPassing: "2020",
-      // Achievements: "a"
     },
   ],
   work: [
