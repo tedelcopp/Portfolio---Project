@@ -19,7 +19,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I am a recently graduated Full Stack Web Developer and a technology enthusiast who is also pursuing education in Landscaping. I have a Front-end orientation, and I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
   address: "Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
@@ -93,6 +93,16 @@ let resumeData = {
         "Using React, I have created a simple yet effective SPA portfolio to showcase my education and professional experience. This portfolio offers a clear and concise way to present my experience in an attractive manner to potential clients and employers.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
       url: "https://www.linkedin.com/in/edelcopp/",
+    },
+  ],
+  testimonials: [
+    {
+      description: "Become who you are",
+      name: "Friedrich Nietzsche",
+    },
+    {
+      description: "This is a sample testimonial",
+      name: "Some technical guy",
     },
   ],
 };
