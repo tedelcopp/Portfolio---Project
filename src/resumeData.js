@@ -36,7 +36,7 @@ let resumeData = {
     },
     {
       UniversityName: "Soy Henry",
-      specialization: "Full Stack Web Developer",
+      specialization: "Full Stack Developer",
       MonthOfPassing: "April",
       YearOfPassing: "2023",
       Achievements:
