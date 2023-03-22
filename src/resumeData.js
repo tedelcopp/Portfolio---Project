@@ -16,8 +16,8 @@ let resumeData = {
     },
     {
       name: "gmail",
-      url: "https://github.com/tedelcopp",
-      className: "fa fa-gmail",
+      url: "mailto:tomas.edelcopp@gmail.com",
+      className: "fa fa-google-plus",
     },
   ],
   aboutme:
