@@ -96,7 +96,7 @@ let resumeData = {
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my education and professional experience. This portfolio offers a clear and concise way to present my experience in an attractive manner to potential clients and employers.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
-      url: "https://www.linkedin.com/in/edelcopp/",
+      url: "https://portfolio-9h0tnva98-tedelcopp.vercel.app/",
     },
   ],
   testimonials: [
