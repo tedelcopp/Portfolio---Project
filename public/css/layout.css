@@ -480,7 +480,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 14px/15px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -887,7 +887,10 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #F06000; }
+footer a:hover , footer a:focus { color: #F06000; }
+
+
+
 
 /* copyright */
 footer .copyright {

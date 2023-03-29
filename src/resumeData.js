@@ -82,8 +82,9 @@ let resumeData = {
   portfolio: [
     {
       name: "The Green Darwin - Project",
-      description: "App",
-      imgurl: "images/portfolio/phone.jpg",
+      description:
+        "A virtual store of a nursery that offers the sale of plants and garden care items.",
+      imgurl: "images/portfolio/thegreendarwin-Project.png",
     },
     {
       name: "Dogs Finder - Project",
@@ -96,7 +97,7 @@ let resumeData = {
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
-      url: "https://portfolio-9h0tnva98-tedelcopp.vercel.app/",
+      url: "https://portfolio-te.vercel.app/",
     },
   ],
   testimonials: [
