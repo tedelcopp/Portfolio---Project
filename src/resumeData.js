@@ -87,16 +87,16 @@ let resumeData = {
       imgurl: "images/portfolio/thegreendarwin-Project.png",
     },
     {
-      name: "Dogs Finder - Project",
-      description: "App",
-      imgurl: "images/portfolio/project.jpg",
-      url: "https://portfolio-te.vercel.app/",
-    },
-    {
       name: "My Portfolio",
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
+      url: "https://portfolio-te.vercel.app/",
+    },
+    {
+      name: "Dogs Finder - Project",
+      description: "App",
+      imgurl: "images/portfolio/dogsfinder-Project.png",
       url: "https://portfolio-te.vercel.app/",
     },
   ],
