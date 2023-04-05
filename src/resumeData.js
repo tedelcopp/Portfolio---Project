@@ -22,6 +22,11 @@ let resumeData = {
       url: "mailto:tomas.edelcopp@gmail.com",
       className: "fa fa-google-plus",
     },
+    {
+      name: "gmail",
+      url: "https://drive.google.com/file/d/1Q8_bPNNevv_C1cKauXUKVL1Ryc9oSslc/view?usp=share_link",
+      className: "fa fa-cloud-download",
+    },
   ],
   aboutme:
     "I am a recently graduated Full Stack Web Developer with Front End orientation and a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
