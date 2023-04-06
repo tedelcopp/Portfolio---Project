@@ -23,8 +23,8 @@ let resumeData = {
       className: "fa fa-google-plus",
     },
     {
-      name: "gmail",
-      url: "https://drive.google.com/file/d/1Q8_bPNNevv_C1cKauXUKVL1Ryc9oSslc/view?usp=share_link",
+      name: "curriculum vitae",
+      url: "https://drive.google.com/file/d/1bNsPVzlbZnD1dfPu_7QghGY6mFpKl7_T/view?usp=share_link",
       className: "fa fa-cloud-download",
     },
   ],
