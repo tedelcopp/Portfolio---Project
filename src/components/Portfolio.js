@@ -16,7 +16,12 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a onClick={() => (window.location.href = item.url)}>
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {/* <a onClick={() => (window.location.href = item.url)}> */}
                           <img src={`${item.imgurl}`} className="item-img" />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
