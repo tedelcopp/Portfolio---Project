@@ -91,6 +91,7 @@ let resumeData = {
         "A virtual store of a nursery that offers the sale of plants and garden care items.",
       imgurl: "images/portfolio/thegreendarwin-Project.png",
       url: "https://the-green-darwin-front.vercel.app/",
+      target: "_blank",
     },
     {
       name: "My Portfolio",
@@ -98,12 +99,14 @@ let resumeData = {
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
       url: "https://portfolio-te.vercel.app/",
+      target: "_blank",
     },
     {
       name: "Dogs Finder - Project",
       description: "App",
       imgurl: "images/portfolio/dogsfinder-Project.png",
       url: "https://portfolio-te.vercel.app/",
+      target: "_blank",
     },
   ],
 };
