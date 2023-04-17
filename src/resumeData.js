@@ -59,7 +59,7 @@ let resumeData = {
     },
     {
       CompanyName: "Faena Buenos Aires",
-      specialization: "Supervisor",
+      specialization: "Supervisor in Special Events",
       MonthOfLeaving: "Aug",
       YearOfLeaving: "2021",
       Achievements:
