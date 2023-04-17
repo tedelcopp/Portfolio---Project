@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "I love staying up to date with the latest trends in technology and enjoy continuing to learn and improve my technical skills. In my free time, I also enjoy two hobbies: going for bike rides and scouting for great photography spots.",
+    " I love staying up to date with the latest trends in technology and enjoy continuing to learn and improve my technical skills. In my free time, I also enjoy two hobbies: going for bike rides and scouting for great photography spots.",
   socialLinks: [
     {
       name: "linkedin",
@@ -90,6 +90,7 @@ let resumeData = {
       description:
         "A virtual store of a nursery that offers the sale of plants and garden care items.",
       imgurl: "images/portfolio/thegreendarwin-Project.png",
+      url: "https://portfolio-te.vercel.app/",
     },
     {
       name: "My Portfolio",
