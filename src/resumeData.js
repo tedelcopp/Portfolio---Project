@@ -90,7 +90,7 @@ let resumeData = {
       description:
         "A virtual store of a nursery that offers the sale of plants and garden care items.",
       imgurl: "images/portfolio/thegreendarwin-Project.png",
-      url: "https://portfolio-te.vercel.app/",
+      url: "https://the-green-darwin-front.vercel.app/",
     },
     {
       name: "My Portfolio",
@@ -104,16 +104,6 @@ let resumeData = {
       description: "App",
       imgurl: "images/portfolio/dogsfinder-Project.png",
       url: "https://portfolio-te.vercel.app/",
-    },
-  ],
-  testimonials: [
-    {
-      description: "Become who you are",
-      name: "Friedrich Nietzsche",
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
     },
   ],
 };
