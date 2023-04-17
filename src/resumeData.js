@@ -29,7 +29,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a recently graduated Full Stack Web Developer with Front End orientation and a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
+    "I am a Full Stack Web Developer with Front End orientation and a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
   address: "Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
