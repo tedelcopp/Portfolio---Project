@@ -42,10 +42,10 @@ let resumeData = {
     {
       UniversityName: "Soy Henry",
       specialization: "Full Stack Developer",
-      MonthOfPassing: "April",
+      MonthOfPassing: "July",
       YearOfPassing: "2023",
       Achievements:
-        "Full Stack developer intensive Bootcamp of over 800 hours of coding. Technologies learned: Javascript, React, Redux, HTML5, CSS, Node, Express, PostgreSQL and Sequelize",
+        "Intensive bootcamp for Full Stack Developers with over 800 hours of coding. Technologies learned: Javascript, React, Redux, HTML5, CSS, Node, Express, PostgreSQL and Sequelize",
     },
   ],
   work: [
