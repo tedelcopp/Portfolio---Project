@@ -86,7 +86,7 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "The Green Darwin - Project",
+      name: "The Green Darwin",
       description:
         "A virtual store of a nursery that offers the sale of plants and garden care items.",
       imgurl: "images/portfolio/thegreendarwin-Project.png",
@@ -94,7 +94,7 @@ let resumeData = {
       target: "_blank",
     },
     {
-      name: "My Portfolio",
+      name: "Portfolio",
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
       imgurl: "images/portfolio/Tomas-Edelcopp.png",
@@ -102,8 +102,8 @@ let resumeData = {
       target: "_blank",
     },
     {
-      name: "Dogs Finder - Project",
-      description: "App",
+      name: "Dog´s Finder App",
+      description: "SPA",
       imgurl: "images/portfolio/dogsfinder-Project.png",
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
