@@ -29,7 +29,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a Full Stack Web Developer with Front End orientation and a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
+    "I am a Full Stack Web Developer a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
   address: "Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
@@ -66,24 +66,7 @@ let resumeData = {
         "I successfully led and directed rotating teams in a wide variety of social and corporate events, ensuring the achievement of specific objectives and respecting the required quality standard. Additionally, I demonstrated effective skills in communication, conflict resolution, employee training and development, which contributed to the success in the planning and execution of the events. I worked collaboratively with other supervisors and managers to achieve short, medium and long-term company goals, ensuring a productive and motivating work environment. During my performance, I remained committed to the pursuit of excellence in work and high quality standards within the area.",
     },
   ],
-  // skillsDescription: "Your skills here",
-  skills: [
-    {
-      skillname: "HTML5",
-    },
-    {
-      skillname: "JavaScript",
-    },
-    {
-      skillname: "CSS",
-    },
-    {
-      skillname: "NodeJS",
-    },
-    {
-      skillname: "Sequelize",
-    },
-  ],
+
   portfolio: [
     {
       name: "The Green Darwin",

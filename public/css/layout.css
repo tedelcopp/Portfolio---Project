@@ -260,7 +260,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 1%; }
 
 .education, .work {
    margin-bottom: 48px;
@@ -282,119 +282,30 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
+/*	Skills Section */
 
-.bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-.bars .skills {
-  	margin-top: 36px;
-   list-style: none;
-}
-.bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
-}
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
-}
-.bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
+ .rowskill{
+   margin-left: -775px;
+   display: flex;
+   margin-bottom: 20px;
+   justify-content: center;
 
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+} 
+.skills {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
 }
-
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 85%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.javascript {
-  	width: 90%;
-  	-moz-animation: javascript 2s ease;
-  	-webkit-animation: javascript 2s ease;
-}
-
-.nodejs {
-   width: 70%;
-   -moz-animation: nodejs 2s ease;
-   -webkit-animation: nodejs 2s ease;
-}
-
-.sequelize {
-   width: 70%;
-   -moz-animation: sequelize 2s ease;
-   -webkit-animation: sequelize 2s ease;
-}
-
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-moz-keyframes javascript {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes nodejs {
-   0%   { width: 0px;  }
-   100% { width: 70%;  }
- }
- @-moz-keyframes sequelize {
-   0%   { width: 0px;  }
-   100% { width: 70%;  }
- }
-
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes nodejs {
-   0%   { width: 0px;  }
-   100% { width: 70%;  }
- }
- @-webkit-keyframes sequelize {
-   0%   { width: 0px;  }
-   100% { width: 70%;  }
- }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-webkit-keyframes javascript {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
+.skills__skill {
+   padding: 2rem 2.5rem;
+   margin-bottom: 1.5rem;
+   margin-right: 1.2rem;
+   font-size: 1.6rem;
+   background: rgba(153, 153, 153, 0.2);
+   border-radius: 5px;
+   font-weight: 600;
+   color: #777; }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
