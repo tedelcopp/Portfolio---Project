@@ -91,6 +91,13 @@ let resumeData = {
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
     },
+    {
+      name: "Winery App",
+      description: "Eccomerce",
+      imgurl: "images/portfolio/winery.png",
+      url: "https://henrywinery.netlify.app/",
+      target: "_blank",
+    },
   ],
 };
 

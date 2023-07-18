@@ -285,9 +285,9 @@ ul#nav li.current a { color: #F06000; }
 /*	Skills Section */
 
  .rowskill{
-   margin-left: -775px;
-   display: flex;
+   /* margin-left: -775px; */
    margin-bottom: 20px;
+   display: flex;
    justify-content: center;
 
 } 
@@ -307,6 +307,20 @@ ul#nav li.current a { color: #F06000; }
    font-weight: 600;
    color: #777; }
 
+   @media (max-width: 768px) {
+      .rowskill {
+         margin-right: 250px;
+      }
+      .skills__skill {
+         margin-right: 0.8rem;
+      }
+   }
+   
+   @media (max-width: 480px) {
+      .skills__skill {
+         padding: 1.5rem;
+      }
+   }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
