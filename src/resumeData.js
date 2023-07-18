@@ -94,7 +94,7 @@ let resumeData = {
     {
       name: "Winery App",
       description: "Eccomerce",
-      imgurl: "images/portfolio/winery.png",
+      imgurl: "images/portfolio/Winery-Project.png",
       url: "https://henrywinery.netlify.app/",
       target: "_blank",
     },
