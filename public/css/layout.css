@@ -310,7 +310,7 @@ ul#nav li.current a { color: #F06000; }
    @media (max-width: 768px) {
       .rowskill {
          margin-left: 0px;
-         margin-right: 265px;
+         margin-right: 275px;
       }
       .skills__skill {
          margin-right: 0.8rem;
