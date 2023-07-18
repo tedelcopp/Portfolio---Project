@@ -285,17 +285,16 @@ ul#nav li.current a { color: #F06000; }
 /*	Skills Section */
 
  .rowskill{
-   margin-left: -775px; 
+   margin-left: -785px; 
    margin-bottom: 20px;
    display: flex;
    justify-content: center;
-
 } 
 .skills {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   
+   align-items: center;
 }
 .skills__skill {
    padding: 2rem 2.5rem;
@@ -310,10 +309,12 @@ ul#nav li.current a { color: #F06000; }
    @media (max-width: 768px) {
       .rowskill {
          margin-left: 0px;
-         margin-right: 275px;
+         margin-right: -5.5px;
+         margin-bottom: -25px;
       }
       .skills__skill {
          margin-right: 0.8rem;
+         margin-bottom: 0.8em;
       }
    }
    
