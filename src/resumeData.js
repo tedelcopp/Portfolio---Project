@@ -72,7 +72,7 @@ let resumeData = {
       name: "The Green Darwin",
       description:
         "A virtual store of a nursery that offers the sale of plants and garden care items.",
-      imgurl: "images/portfolio/thegreendarwin-Project.png",
+      imgurl: "https://i.ibb.co/bFthRw5/The-Green-Darwin-Project.png",
       url: "https://the-green-darwin-front.vercel.app/",
       target: "_blank",
     },
@@ -80,15 +80,14 @@ let resumeData = {
       name: "Portfolio",
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
-      imgurl:
-        "https://media.licdn.com/dms/image/C4D2DAQHEn5g2-neoMw/profile-treasury-image-shrink_800_800/0/1679518142407?e=1690308000&v=beta&t=9V4tS1eUxCigijxUyJFUk5T-c6xppWD5vatu92XNu-k",
+      imgurl: "https://i.ibb.co/cY2JC5n/Portfolio-Tom-s-Edelcopp.png",
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
     },
     {
       name: "Dog´s Finder App",
       description: "SPA",
-      imgurl: "images/portfolio/dogsfinder-Project.png",
+      imgurl: "https://i.ibb.co/RDPHy1Q/Dogs-Finder-Project.png",
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
     },
