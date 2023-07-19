@@ -80,7 +80,8 @@ let resumeData = {
       name: "Portfolio",
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
-      imgurl: "images/portfolio/Tomas-Edelcopp.png",
+      imgurl:
+        "https://media.licdn.com/dms/image/C4D2DAQHEn5g2-neoMw/profile-treasury-image-shrink_800_800/0/1679518142407?e=1690308000&v=beta&t=9V4tS1eUxCigijxUyJFUk5T-c6xppWD5vatu92XNu-k",
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
     },
@@ -94,7 +95,7 @@ let resumeData = {
     {
       name: "Winery App",
       description: "Eccomerce",
-      imgurl: "images/portfolio/Winery-Project.png",
+      imgurl: "https://i.ibb.co/f1tW5wK/Winery-Project.png",
       url: "https://henrywinery.netlify.app/",
       target: "_blank",
     },
