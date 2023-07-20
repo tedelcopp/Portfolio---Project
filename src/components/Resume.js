@@ -61,28 +61,30 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className="rowskill">
+        <div className="row">
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
             </h1>
           </div>
-          <div class="skills">
-            <div class="skills__skill">HTML5</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">React</div>
-            <div class="skills__skill">Redux</div>
-            <div class="skills__skill">Node</div>
-            <div class="skills__skill">Express</div>
-            <div class="skills__skill">PostgreSQL</div>
-            <div class="skills__skill">Sequelize</div>
-            <div class="skills__skill">Bootstrap</div>
-            <div class="skills__skill">MySQL</div>
-            <div class="skills__skill">Vue.js</div>
-            <div class="skills__skill">Figma</div>
-            <div class="skills__skill">MUI</div>
-            <div class="skills__skill">Vite</div>
+          <div className="nine columns main-col">
+            <div className="skills">
+              <div class="skills__skill">HTML5</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Redux</div>
+              <div class="skills__skill">Node</div>
+              <div class="skills__skill">Express</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">Sequelize</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">Vue.js</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">MUI</div>
+              <div class="skills__skill">Vite</div>
+            </div>
           </div>
         </div>
       </section>

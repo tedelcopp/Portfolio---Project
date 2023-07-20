@@ -284,19 +284,14 @@ ul#nav li.current a { color: #F06000; }
 
 /*	Skills Section */
 
- .rowskill{
-   margin-left: -785px; 
-   margin-bottom: 20px;
-   display: flex;
-   justify-content: center;
-} 
 .skills {
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-}
-.skills__skill {
+   justify-content: flex-start; /* Align skills to the left */
+   margin-bottom: 48px;
+ }
+ 
+ .skills__skill {
    padding: 2rem 2.5rem;
    margin-bottom: 1.5rem;
    margin-right: 1.2rem;
@@ -304,25 +299,25 @@ ul#nav li.current a { color: #F06000; }
    background: rgba(153, 153, 153, 0.2);
    border-radius: 5px;
    font-weight: 600;
-   color: #777; }
-
-   @media (max-width: 768px) {
-      .rowskill {
-         margin-left: 0px;
-         margin-right: -5.5px;
-         margin-bottom: -25px;
-      }
-      .skills__skill {
-         margin-right: 0.8rem;
-         margin-bottom: 0.8em;
-      }
+   color: #777;
+ }
+ 
+ /* Media queries for responsiveness (if needed) */
+ @media (max-width: 768px) {
+   .skills {
+     margin-left: 0;
+     margin-right: 0;
    }
-   
-   @media (max-width: 480px) {
-      .skills__skill {
-         padding: 1.5rem;
-      }
+   .skills__skill {
+     margin-right: 0.8rem;
    }
+ }
+ 
+ @media (max-width: 480px) {
+   .skills__skill {
+     padding: 1.5rem;
+   }
+ }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
