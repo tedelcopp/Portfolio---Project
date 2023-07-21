@@ -287,7 +287,7 @@ ul#nav li.current a { color: #F06000; }
 .skills {
    display: flex;
    flex-wrap: wrap;
-   justify-content: flex-start; /* Align skills to the left */
+   justify-content: flex-start; 
    margin-bottom: -30px;
  }
  
@@ -302,7 +302,6 @@ ul#nav li.current a { color: #F06000; }
    color: #777;
  }
  
- /* Media queries for responsiveness (if needed) */
  @media (max-width: 768px) {
    .skills {
      margin-left: 0;
