@@ -24,13 +24,13 @@ let resumeData = {
     },
     {
       name: "curriculum vitae",
-      url: "https://drive.google.com/file/d/1ejOvft5A5HE_5Bpyld1CclpJirqkft-r/view?usp=sharin",
+      url: "https://drive.google.com/file/d/1ejOvft5A5HE_5Bpyld1CclpJirqkft-r/view?usp=sharing",
       className: "fa fa-cloud-download",
     },
   ],
   aboutme:
-    "I am a Full Stack Web Developer a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
-  address: "📍 Buenos Aires, Argentina.",
+    "Full Stack Web Developer with a focus on frontend development. I am currently working on my own projects and implementing tools that enhance user experience and the efficiency of web applications. I also enjoy exploring new technologies and trends in the programming field to continuously improve my skills",
+  address: "📍 Buenos Aires, Argendddddtina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
