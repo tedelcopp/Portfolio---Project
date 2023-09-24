@@ -2,6 +2,7 @@ import React, { Component } from "react";
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    
     return (
       <section id="portfolio">
         <div className="row">
@@ -14,9 +15,9 @@ export default class Porfolio extends Component {
               className="bgrid-quarters s-bgrid-thirds cf"
             >
               {resumeData.portfolio &&
-                resumeData.portfolio.map((item) => {
+                resumeData.portfolio.map((item, key) => {
                   return (
-                    <div className="columns portfolio-item">
+                    <div key={key} className="columns portfolio-item">
                       <div className="item-wrap">
                         <a onClick={() => (window.location.href = item.url)}>
                           <img src={`${item.imgurl}`} className="item-img" />

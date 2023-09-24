@@ -102,7 +102,7 @@ let resumeData = {
       name: "Grow",
       description: "App",
       imgurl: "https://i.ibb.co/Zg6wjj2/Grow-Project.png",
-      url: "https://grow-d911fxl4q-tedelcopp.vercel.app/",
+      url: "https://henrywinery.netlify.app/",
       target: "_blank",
     },
   ],

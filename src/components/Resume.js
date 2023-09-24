@@ -13,9 +13,9 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map((item) => {
+              resumeData.education.map((item, key) => {
                 return (
-                  <div className="row item">
+                  <div key={key} className="row item">
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
@@ -41,9 +41,9 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.work &&
-              resumeData.work.map((item) => {
+              resumeData.work.map((item, key) => {
                 return (
-                  <div className="row item">
+                  <div key={key} className="row item">
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
@@ -69,21 +69,22 @@ export default class Resume extends Component {
           </div>
           <div className="nine columns main-col">
             <div className="skills">
-              <div class="skills__skill">HTML5</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">Redux</div>
-              <div class="skills__skill">Node</div>
-              <div class="skills__skill">Express</div>
-              <div class="skills__skill">PostgreSQL</div>
-              <div class="skills__skill">Sequelize</div>
-              <div class="skills__skill">Bootstrap</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">Vue.js</div>
-              <div class="skills__skill">Figma</div>
-              <div class="skills__skill">MUI</div>
-              <div class="skills__skill">Vite</div>
+              <div className="skills__skill">HTML5</div>
+              <div className="skills__skill">CSS</div>
+              <div className="skills__skill">JavaScript</div>
+              <div className="skills__skill">React</div>
+              <div className="skills__skill">Redux</div>
+              <div className="skills__skill">Node</div>
+              <div className="skills__skill">Express</div>
+              <div className="skills__skill">PostgreSQL</div>
+              <div className="skills__skill">Sequelize</div>
+              <div className="skills__skill">Bootstrap</div>
+              <div className="skills__skill">MySQL</div>
+              <div className="skills__skill">Vue.js</div>
+              <div className="skills__skill">Figma</div>
+              <div className="skills__skill">MUI</div>
+              <div className="skills__skill">Vite</div>
+              <div className="skills__skill">Next.js</div>
             </div>
           </div>
         </div>
