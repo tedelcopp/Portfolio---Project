@@ -29,7 +29,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a Full Stack Web Developer a technology enthusiast who is also pursuing education in Landscaping. I love working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
+    "I am a Full Stack Developer who is in search of their first job in technology. I develop projects on my own and constantly study new technologies to improve my code day by day. I enjoy working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
   address: "📍 Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [

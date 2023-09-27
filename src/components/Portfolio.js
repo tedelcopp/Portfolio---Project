@@ -8,7 +8,7 @@ export default class Porfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>
-              <u>Check Out Some of My Works</u>
+              <u>Check Out Some of My Projects</u>
             </h1>
             <div
               id="portfolio-wrapper"

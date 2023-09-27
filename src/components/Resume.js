@@ -77,6 +77,7 @@ export default class Resume extends Component {
               <div className="skills__skill">Node</div>
               <div className="skills__skill">Express</div>
               <div className="skills__skill">PostgreSQL</div>
+              <div className="skills__skill">MongoDB</div>
               <div className="skills__skill">Sequelize</div>
               <div className="skills__skill">Bootstrap</div>
               <div className="skills__skill">MySQL</div>

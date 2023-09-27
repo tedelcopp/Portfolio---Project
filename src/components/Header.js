@@ -6,12 +6,12 @@ export default class Header extends Component {
       <React.Fragment>
         <header id="home">
           <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
             <a className="mobile-btn" href="#" title="Hide navigation">
               Hide navigation
-            </a>
+            </a> */}
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -30,7 +30,7 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Works
+                  Projects
                 </a>
               </li>
               <li>

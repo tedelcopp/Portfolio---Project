@@ -50,7 +50,7 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "The Green Darwin",
+      CompanyName: "The Green Darwins",
       specialization: "CEO",
       MonthOfLeaving: "Mar",
       YearOfLeaving: "2023",
