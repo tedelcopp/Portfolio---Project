@@ -262,6 +262,13 @@ ul#nav li.current a {
 }
 
 @media (max-width: 768px) {
+   #about {
+      padding-top: 30px;
+      padding-bottom: 25px;
+   }
+}
+
+@media (max-width: 768px) {
 
    .about-me,
    .contact-details {
@@ -395,12 +402,23 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
+/* #portfolio h1 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #000000;
+   border-bottom: 3px solid #11ABB0;
+} */
+
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 65px;
+   padding-bottom: 65px;
 }
+
 
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -408,7 +426,25 @@ ul#nav li.current a {
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #000000;
+   border-bottom: 3px solid #11ABB0;
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+   #portfolio h1 {
+      font-size: 20px;
+      /* Ajusta el tamaño de la fuente del h1 para la versión responsive */
+   }
+}
+
+@media screen and (max-width: 768px) {
+   #portfolio {
+      padding-top: 65px;
+   }
 }
 
 /* Portfolio Content */
@@ -873,6 +909,12 @@ call-to-action .button {
    }
 }
 
+@media screen and (max-width: 768px) {
+   .send-button {
+      margin-top: 20px;
+   }
+}
+
 #contact input,
 #contact textarea,
 #contact select {
@@ -972,6 +1014,7 @@ call-to-action .button {
    color: #474747 !important;
    border: none;
 }
+
 
 
 /* ------------------------------------------------------------------ */

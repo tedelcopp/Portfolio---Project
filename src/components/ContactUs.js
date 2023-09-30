@@ -106,11 +106,12 @@ export default class ContactUs extends Component {
                   <div className="alert alert-danger">{this.state.errorMessage}</div>
                 )}
 
-                <div className="text-center">
-                  <button type="submit" className="btn btn-primary">
-                    Send
-                  </button>
-                </div>
+<div className="text-center">
+  <button type="submit" className="btn btn-primary send-button">
+    Send
+  </button>
+</div>
+
               </form>
             </div>
           </div>

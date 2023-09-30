@@ -30,7 +30,7 @@ let resumeData = {
   ],
   aboutme:
     "Full Stack Web Developer with a focus on frontend development. I am currently working on my own projects and implementing tools that enhance user experience and the efficiency of web applications. I also enjoy exploring new technologies and trends in the programming field to continuously improve my skills",
-  address: "📍 Buenos Aires, Argentina.",
+  address: "Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
