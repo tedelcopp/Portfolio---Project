@@ -15,6 +15,7 @@ export default class ContactUs extends Component {
         emptyFields: 'Please fill in all the fields.',
         emailError: 'Please enter a valid email address.',
       },
+      isFormValid: false, 
     };
   }
 
@@ -24,20 +25,35 @@ export default class ContactUs extends Component {
     if (this.state.errorMessage) {
       this.setState({ errorMessage: '' });
     }
-    this.setState({ [name]: value });
+    this.setState({ [name]: value }, () => {
+      const { name, email, message } = this.state;
+      const isFormValid = name.trim() !== '' || email.trim() !== '' || message.trim() !== '';
+      this.setState({ isFormValid });
+    });
   };
 
   sendEmail = async (e) => {
     e.preventDefault();
-
-    if (!this.state.name || !this.state.email || !this.state.message) {
+  
+    const nameError = !this.state.name ? 'Please enter your name.' : '';
+    const emailError = !this.state.email ? 'Please enter your email.' : '';
+    const messageError = !this.state.message ? 'Please enter your message.' : '';
+  
+    if (nameError || messageError) {
       this.setState({
-        errorMessage: this.state.errorMessages.emptyFields,
+        errorMessage: 'Please fill in all the fields.',
+      });
+      return;
+    }
+  
+    if (emailError) {
+      this.setState({
+        errorMessage: emailError,
         successMessage: '',
       });
       return;
     }
-
+  
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
       this.setState({
         errorMessage: this.state.errorMessages.emailError,
@@ -45,13 +61,13 @@ export default class ContactUs extends Component {
       });
       return;
     }
-
+  
     const emailData = {
       user_name: this.state.name,
       user_email: this.state.email,
       message: this.state.message,
     };
-
+  
     try {
       const response = await emailjs.send(
         'service_378vtrg',
@@ -59,26 +75,30 @@ export default class ContactUs extends Component {
         emailData,
         'THDtUsAxnateC4RGm'
       );
-
+  
       console.log('Respuesta de EmailJS:', response);
-
+  
       this.setState({
         successMessage: 'Your email has been sent successfully! You will receive a response soon.',
         errorMessage: '',
         name: '',
         email: '',
         message: '',
+        isFormValid: false,
+        nameError: '',
+        emailError: '',
+        messageError: '',
       });
     } catch (error) {
       console.error('Error sending email via EmailJS:', error);
-
+  
       this.setState({
         errorMessage: 'There was an error sending the email. Please try again.',
         successMessage: '',
       });
     }
   };
-
+  
   render() {
     return (
       <section id="contact" className="contact-section">
@@ -137,7 +157,11 @@ export default class ContactUs extends Component {
                 )}
 
                 <div className="text-center">
-                  <button type="submit" className="btn btn-primary send-button">
+                  <button
+                    type="submit"
+                    className={`btn btn-primary send-button ${!this.state.isFormValid ? 'custom-disabled-button' : ''}`}
+                    disabled={!this.state.isFormValid} 
+                  >
                     Send
                   </button>
                 </div>

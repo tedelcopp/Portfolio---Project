@@ -1043,6 +1043,11 @@ call-to-action .button {
    }
 }
 
+.custom-disabled-button {
+   cursor: not-allowed;
+   /* Cambia el cursor a un icono de prohibido */
+}
+
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
