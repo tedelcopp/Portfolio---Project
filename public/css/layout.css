@@ -188,9 +188,6 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-
-   /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
@@ -402,17 +399,6 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
-/* #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #000000;
-   border-bottom: 3px solid #11ABB0;
-} */
-
-
 #portfolio {
    background: #ebeeee;
    padding-top: 65px;
@@ -437,7 +423,6 @@ ul#nav li.current a {
 @media screen and (max-width: 768px) {
    #portfolio h1 {
       font-size: 20px;
-      /* Ajusta el tamaño de la fuente del h1 para la versión responsive */
    }
 }
 
@@ -680,12 +665,6 @@ ul#nav li.current a {
    font-size: 17px;
 }
 
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -774,19 +753,16 @@ call-to-action .button {
    position: relative;
 }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides>li {
    display: none;
    -webkit-backface-visibility: hidden;
 }
 
-/* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
    zoom: 1;
    position: relative;
 }
 
-/* Clearfix for .slides */
 .slides:before,
 .slides:after {
    content: " ";
@@ -797,9 +773,6 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
 .no-js .slides>li:first-child {
    display: block;
 }
@@ -887,7 +860,6 @@ call-to-action .button {
 }
 
 #contact .form-control.custom-input-width {
-   /* Establece el ancho deseado, por ejemplo, 80% */
    width: 100%;
 }
 
@@ -1036,15 +1008,8 @@ call-to-action .button {
 @media (max-width: 767px) {
    .custom-alert {
       margin-top: 35px;
-      /* Mismo valor que en el modo de ordenador */
       margin-bottom: 15px;
-      /* Mismo valor que en el modo de ordenador */
    }
-}
-
-.custom-disabled-button {
-   cursor: not-allowed;
-   /* Cambia el cursor a un icono de prohibido */
 }
 
 /* ------------------------------------------------------------------ */
