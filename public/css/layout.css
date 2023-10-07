@@ -910,8 +910,20 @@ call-to-action .button {
 }
 
 @media screen and (max-width: 768px) {
+   .text-center.mx-auto {
+      text-align: center;
+   }
+}
+
+.send-button {
+   margin-top: 10px;
+   margin-bottom: -40px;
+}
+
+@media screen and (max-width: 768px) {
    .send-button {
-      margin-top: 20px;
+      margin-top: 15px;
+      margin-bottom: -15px;
    }
 }
 
@@ -1015,7 +1027,21 @@ call-to-action .button {
    border: none;
 }
 
+/* Alerts */
+.custom-alert {
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 35px;
+}
 
+@media (max-width: 767px) {
+   .custom-alert {
+      margin-top: 35px;
+      /* Mismo valor que en el modo de ordenador */
+      margin-bottom: 15px;
+      /* Mismo valor que en el modo de ordenador */
+   }
+}
 
 /* ------------------------------------------------------------------ */
 /* i. Footer

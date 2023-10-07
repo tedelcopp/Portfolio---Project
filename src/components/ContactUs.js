@@ -1,5 +1,6 @@
+
 import React, { Component } from 'react';
-import { Resend } from 'resend'; 
+import emailjs from 'emailjs-com';
 
 export default class ContactUs extends Component {
   constructor(props) {
@@ -10,46 +11,71 @@ export default class ContactUs extends Component {
       message: '',
       successMessage: '',
       errorMessage: '',
+      errorMessages: {
+        emptyFields: 'Please fill in all the fields.',
+        emailError: 'Please enter a valid email address.',
+      },
     };
   }
 
   handleInputChange = (event) => {
     const { name, value } = event.target;
+
+    if (this.state.errorMessage) {
+      this.setState({ errorMessage: '' });
+    }
     this.setState({ [name]: value });
   };
 
-  handleSubmit = async (event) => {
-    event.preventDefault();
+  sendEmail = async (e) => {
+    e.preventDefault();
 
-    const resend = new Resend('re_7iGEvUNt_LMpHSZqfMnUVSpeiNmwRn37B');
+    if (!this.state.name || !this.state.email || !this.state.message) {
+      this.setState({
+        errorMessage: this.state.errorMessages.emptyFields,
+        successMessage: '',
+      });
+      return;
+    }
+
+    if (!/\S+@\S+\.\S+/.test(this.state.email)) {
+      this.setState({
+        errorMessage: this.state.errorMessages.emailError,
+        successMessage: '',
+      });
+      return;
+    }
 
     const emailData = {
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['tomas.edelcopp@gmail.com'], // Reemplaza con la dirección de correo deseada
-      subject: 'Mensaje desde el formulario de contacto',
-      html: `<p>Nombre: ${this.state.name}</p><p>Email: ${this.state.email}</p><p>Mensaje: ${this.state.message}</p>`,
+      user_name: this.state.name,
+      user_email: this.state.email,
+      message: this.state.message,
     };
 
     try {
-      // Envía el correo electrónico
-      const data = await resend.emails.send(emailData);
+      const response = await emailjs.send(
+        'service_378vtrg',
+        'template_odpoh9i',
+        emailData,
+        'THDtUsAxnateC4RGm'
+      );
 
-      // Actualiza el estado para mostrar un mensaje de éxito
+      console.log('Respuesta de EmailJS:', response);
+
       this.setState({
-        successMessage: 'El correo se ha enviado con éxito.',
-        errorMessage: '', // Limpia cualquier mensaje de error anterior
+        successMessage: 'Your email has been sent successfully! You will receive a response soon.',
+        errorMessage: '',
+        name: '',
+        email: '',
+        message: '',
       });
-
-      // Puedes hacer más cosas con "data" si es necesario
-      console.log(data);
     } catch (error) {
-      // Maneja los errores y muestra un mensaje de error
-      this.setState({
-        errorMessage: 'Hubo un error al enviar el correo. Por favor, inténtalo de nuevo.',
-        successMessage: '', // Limpia cualquier mensaje de éxito anterior
-      });
+      console.error('Error sending email via EmailJS:', error);
 
-      console.error(error);
+      this.setState({
+        errorMessage: 'There was an error sending the email. Please try again.',
+        successMessage: '',
+      });
     }
   };
 
@@ -66,8 +92,7 @@ export default class ContactUs extends Component {
           </div>
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
-              <form className="contact-form" onSubmit={this.handleSubmit}>
-
+              <form className="contact-form" onSubmit={this.sendEmail}>
                 <div className="form-group mx-auto">
                   <input
                     type="text"
@@ -99,19 +124,23 @@ export default class ContactUs extends Component {
                   ></textarea>
                 </div>
 
-                {this.state.successMessage && (
-                  <div className="alert alert-success">{this.state.successMessage}</div>
-                )}
                 {this.state.errorMessage && (
-                  <div className="alert alert-danger">{this.state.errorMessage}</div>
+                  <div className="custom-alert custom-alert-danger">
+                    {this.state.errorMessage}
+                  </div>
                 )}
 
-<div className="text-center">
-  <button type="submit" className="btn btn-primary send-button">
-    Send
-  </button>
-</div>
+                {this.state.successMessage && (
+                  <div className="custom-alert custom-alert-success">
+                    {this.state.successMessage}
+                  </div>
+                )}
 
+                <div className="text-center">
+                  <button type="submit" className="btn btn-primary send-button">
+                    Send
+                  </button>
+                </div>
               </form>
             </div>
           </div>
