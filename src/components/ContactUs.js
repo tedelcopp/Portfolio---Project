@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -15,7 +14,7 @@ export default class ContactUs extends Component {
         emptyFields: 'Please fill in all the fields.',
         emailError: 'Please enter a valid email address.',
       },
-      isFormValid: false, 
+      isFormValid: false,
     };
   }
 
@@ -34,18 +33,18 @@ export default class ContactUs extends Component {
 
   sendEmail = async (e) => {
     e.preventDefault();
-  
+
     const nameError = !this.state.name ? 'Please enter your name.' : '';
     const emailError = !this.state.email ? 'Please enter your email.' : '';
     const messageError = !this.state.message ? 'Please enter your message.' : '';
-  
+
     if (nameError || messageError) {
       this.setState({
         errorMessage: 'Please fill in all the fields.',
       });
       return;
     }
-  
+
     if (emailError) {
       this.setState({
         errorMessage: emailError,
@@ -53,7 +52,7 @@ export default class ContactUs extends Component {
       });
       return;
     }
-  
+
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
       this.setState({
         errorMessage: this.state.errorMessages.emailError,
@@ -61,13 +60,13 @@ export default class ContactUs extends Component {
       });
       return;
     }
-  
+
     const emailData = {
       user_name: this.state.name,
       user_email: this.state.email,
       message: this.state.message,
     };
-  
+
     try {
       const response = await emailjs.send(
         'service_378vtrg',
@@ -75,9 +74,9 @@ export default class ContactUs extends Component {
         emailData,
         'THDtUsAxnateC4RGm'
       );
-  
+
       console.log('Respuesta de EmailJS:', response);
-  
+
       this.setState({
         successMessage: 'Your email has been sent successfully! You will receive a response soon.',
         errorMessage: '',
@@ -91,14 +90,14 @@ export default class ContactUs extends Component {
       });
     } catch (error) {
       console.error('Error sending email via EmailJS:', error);
-  
+
       this.setState({
         errorMessage: 'There was an error sending the email. Please try again.',
         successMessage: '',
       });
     }
   };
-  
+
   render() {
     return (
       <section id="contact" className="contact-section">
@@ -159,8 +158,10 @@ export default class ContactUs extends Component {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className={`btn btn-primary send-button ${!this.state.isFormValid ? 'custom-disabled-button' : ''}`}
-                    disabled={!this.state.isFormValid} 
+                    className={`btn btn-primary send-button ${
+                      !this.state.isFormValid ? 'custom-disabled-button' : 'custom-hover-button'
+                    }`}
+                    disabled={!this.state.isFormValid}
                   >
                     Send
                   </button>
