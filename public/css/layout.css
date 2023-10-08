@@ -899,6 +899,28 @@ ul#nav li.current a {
    }
 }
 
+.custom-alert-danger {
+   background-color: #f44336;
+   color: #fff;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   border: 1px solid #d32f2f;
+   border-radius: 4px;
+   padding: 10px;
+   text-align: center;
+}
+
+.custom-alert-success {
+   background-color: #4CAF50;
+   color: #fff;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #388E3C;
+   border-radius: 4px;
+   padding: 10px;
+   text-align: center;
+}
+
 #contact input,
 #contact textarea,
 #contact select {
@@ -997,6 +1019,25 @@ ul#nav li.current a {
    color: #474747 !important;
    border: none;
 }
+
+/* .custom-alert {
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid transparent;
+   border-radius: 4px;
+} */
+
+/* .custom-alert-danger {
+   background-color: #f2dede;
+   border-color: #ebccd1;
+   color: #a94442;
+} */
+
+/* .custom-alert-success {
+   background-color: #dff0d8;
+   border-color: #d6e9c6;
+   color: #3c763d;
+} */
 
 /* Alerts */
 .custom-alert {

@@ -10,25 +10,18 @@ export default class ContactUs extends Component {
       message: '',
       successMessage: '',
       errorMessage: '',
-      errorMessages: {
-        emptyFields: 'Please fill in all the fields.',
-        emailError: 'Please enter a valid email address.',
-      },
-      isFormValid: false,
     };
   }
 
   handleInputChange = (event) => {
     const { name, value } = event.target;
 
+    // Limpiar los mensajes de error cuando se comienza a escribir
     if (this.state.errorMessage) {
       this.setState({ errorMessage: '' });
     }
-    this.setState({ [name]: value }, () => {
-      const { name, email, message } = this.state;
-      const isFormValid = name.trim() !== '' || email.trim() !== '' || message.trim() !== '';
-      this.setState({ isFormValid });
-    });
+
+    this.setState({ [name]: value });
   };
 
   sendEmail = async (e) => {
@@ -38,24 +31,16 @@ export default class ContactUs extends Component {
     const emailError = !this.state.email ? 'Please enter your email.' : '';
     const messageError = !this.state.message ? 'Please enter your message.' : '';
 
-    if (nameError || messageError) {
+    if (nameError || emailError || messageError) {
       this.setState({
         errorMessage: 'Please fill in all the fields.',
       });
       return;
     }
 
-    if (emailError) {
-      this.setState({
-        errorMessage: emailError,
-        successMessage: '',
-      });
-      return;
-    }
-
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
       this.setState({
-        errorMessage: this.state.errorMessages.emailError,
+        errorMessage: 'Please enter a valid email address.',
         successMessage: '',
       });
       return;
@@ -83,10 +68,6 @@ export default class ContactUs extends Component {
         name: '',
         email: '',
         message: '',
-        isFormValid: false,
-        nameError: '',
-        emailError: '',
-        messageError: '',
       });
     } catch (error) {
       console.error('Error sending email via EmailJS:', error);
@@ -158,10 +139,7 @@ export default class ContactUs extends Component {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className={`btn btn-primary send-button ${
-                      !this.state.isFormValid ? 'custom-disabled-button' : 'custom-hover-button'
-                    }`}
-                    disabled={!this.state.isFormValid}
+                    className="btn btn-primary send-button"
                   >
                     Send
                   </button>
