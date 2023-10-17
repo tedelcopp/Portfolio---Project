@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    const linkStyle = {
+      fontSize: '24px', // Puedes ajustar este valor al tamaño deseado
+    };
+
     return (
       <section id="about">
         <div className="row">
@@ -21,7 +25,12 @@ export default class About extends Component {
                 <br />
                 <span>{resumeData.address}</span>
                 <br />
-                {/* <span>{resumeData.website}</span> */}
+                <a href={resumeData.socialLinks[2].url} className="gmail-link">
+                  <i className={resumeData.socialLinks[2].className} style={linkStyle}></i>
+                </a>
+                <a href={resumeData.socialLinks[0].url} className="linkedin-link">
+                  <i className={resumeData.socialLinks[0].className} style={linkStyle}></i>
+                </a>
               </p>
             </div>
           </div>
