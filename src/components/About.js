@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     const linkStyle = {
-      fontSize: '24px', // Puedes ajustar este valor al tamaño deseado
+      fontSize: '20px', 
     };
 
     return (
@@ -28,7 +28,7 @@ export default class About extends Component {
                 <a href={resumeData.socialLinks[2].url} className="gmail-link">
                   <i className={resumeData.socialLinks[2].className} style={linkStyle}></i>
                 </a>
-                <a href={resumeData.socialLinks[0].url} className="linkedin-link">
+                <a href={resumeData.socialLinks[0].url} className="linkedin-link" target="_blank">
                   <i className={resumeData.socialLinks[0].className} style={linkStyle}></i>
                 </a>
               </p>
