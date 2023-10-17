@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 
 export default class About extends Component {
+  handleLinkClick = (event) => {
+    const links = document.querySelectorAll('.contact-details a');
+    links.forEach((link) => link.removeAttribute('data-active'));
+    event.target.setAttribute('data-active', 'true');
+  };
+
   render() {
     let resumeData = this.props.resumeData;
     const linkStyle = {
-      fontSize: '20px', 
+      fontSize: '20px',
     };
 
     return (
@@ -25,10 +31,22 @@ export default class About extends Component {
                 <br />
                 <span>{resumeData.address}</span>
                 <br />
-                <a href={resumeData.socialLinks[2].url} className="gmail-link">
+                <a
+                  href={resumeData.socialLinks[2].url}
+                  className="gmail-link"
+                  data-active="false"
+                  onClick={this.handleLinkClick}
+                  target="_blank"
+                >
                   <i className={resumeData.socialLinks[2].className} style={linkStyle}></i>
                 </a>
-                <a href={resumeData.socialLinks[0].url} className="linkedin-link" target="_blank">
+                <a
+                  href={resumeData.socialLinks[0].url}
+                  className="linkedin-link"
+                  data-active="false"
+                  onClick={this.handleLinkClick}
+                  target="_blank"
+                >
                   <i className={resumeData.socialLinks[0].className} style={linkStyle}></i>
                 </a>
               </p>
