@@ -80,7 +80,7 @@ let resumeData = {
       name: "Portfolio",
       description:
         "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
-      imgurl: "https://i.ibb.co/cY2JC5n/Portfolio-Tom-s-Edelcopp.png",
+      imgurl: "https://i.ibb.co/MBF250q/Captura-de-pantalla-2023-10-17-152839.png",
       url: "https://portfolio-te.vercel.app/",
       target: "_blank",
     },
