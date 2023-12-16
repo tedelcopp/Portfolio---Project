@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "I love staying up to date with the latest technology trends and enjoy constantly learning and improving my technical skills. Currently, i'm working on projects on my own, in pursuit of my first job in the IT field.",
+    "I love staying up to date with the latest technology trends and enjoy constantly learning and improving my technical skills. Currently, i'm working on independent projects while I search for my first job in the technology field.",
   socialLinks: [
     {
       name: "linkedin",
@@ -28,8 +28,7 @@ let resumeData = {
       className: "fa fa-cloud-download",
     },
   ],
-  aboutme:
-    "I am a Full Stack Developer who is in search of their first job in technology. I develop projects on my own and constantly study new technologies to improve my code day by day. I enjoy working in teams and collaborating with colleagues to develop innovative and efficient solutions.",
+  aboutme:"I've always been passionate about technology, and finally decided to start studying in 2022. First on my own, then I began an intensive bootcamp which I completed in 2023.",
   address: "📍 Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
@@ -49,14 +48,6 @@ let resumeData = {
     },
   ],
   work: [
-    {
-      CompanyName: "The Green Darwin",
-      specialization: "CEO",
-      MonthOfLeaving: "Mar",
-      YearOfLeaving: "2023",
-      Achievements:
-        "My passion for gardening and my entrepreneurial spirit motivated me to create my own business to finance my university studies. I learned how to program and developed an e-commerce platform for plants and gardening supplies. In my online store, I offer a wide variety of products to meet the needs of any gardening enthusiast. From beautiful plants to high-quality gardening tools, my business has everything you need to create and maintain a beautiful garden at home.",
-    },
     {
       CompanyName: "Faena Buenos Aires",
       specialization: "Supervisor in Special Events",
