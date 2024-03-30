@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "I love staying up to date with the latest technology trends and enjoy constantly learning and improving my technical skills.",
+    "I love staying up to date with the latest technology trends and enjoy constantly learning and improving my technical skills. I build the web elements that you ever wanted to see.",
   socialLinks: [
     {
       name: "linkedin",
@@ -24,7 +24,7 @@ let resumeData = {
     },
     {
       name: "curriculum vitae",
-      url: "https://drive.google.com/file/d/1QgSf7gyUjyHVjw4qAERUwAfJB6_kOY2i/view?usp=drive_link",
+      url: "https://drive.google.com/file/d/1u-iyRovLAIHLdCFwxu7pTqVXfgY4fkjn/view?usp=drive_link",
       className: "fa fa-cloud-download",
     },
   ],
@@ -67,7 +67,7 @@ let resumeData = {
     {
       name: "Dog´s Finder App",
       description: "Single Page Application that displays information about all countries brought through an external API. The app is capable of paginating the results, sort them alphabetically, as well as by race, weight, and size.",
-      imgurl: "https://i.ibb.co/RDPHy1Q/Dogs-Finder-Project.png",
+      imgurl: require("./components/Images/DogsFinderApp.png"),
       urlgithub: "",
       urldeploy: "",
       stack:" ReactJS, JavaScript, SAAS, Redux, Node & Sequelize."

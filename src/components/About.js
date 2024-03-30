@@ -25,6 +25,7 @@ export default class About extends Component {
             </div>
             <p>{resumeData.aboutme2}</p>
           </div>
+          <div className="about-master">
             <div className="contact-details">
               <h2>Contact Details</h2>
               <div className="social-links">
@@ -52,10 +53,11 @@ export default class About extends Component {
                 </div>
                 <div>
                   <button className="jumping">
-                    <a href="link-to-your-resume" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1u-iyRovLAIHLdCFwxu7pTqVXfgY4fkjn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                       Check out my resume!
                     </a>
                   </button>
+                </div>
                 </div>
    </div>
               </div>

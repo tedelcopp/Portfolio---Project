@@ -26,7 +26,6 @@ body {
    background: #0f0f0f;
    overflow-x: hidden;
    width: 100%;
-
 }
 
 /* ------------------------------------------------------------------ */
@@ -99,7 +98,7 @@ header .banner-text hr {
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
-   left: 49.5%;
+   left: 48.5%;
    margin-left: -29px;
    color: #fff;
    display: block;
@@ -183,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-   color: #FF781F;
+   color: #e9965f;
 }
 
 ul#nav li a:active {
@@ -343,87 +342,63 @@ button.jumping {
 
 /* About Screens Responsive  */
 @media (max-width: 767px) {
-   #about {
-      padding-top: 30px;
-      padding-bottom: 30px;
+
+   #about-master {
+      width: fit-content;
+      background-color: #000000;
    }
 
-   .about-me {
-      text-align: center;
+
+   #about {
+      padding-top: 40px;
+      user-select: none;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #about a,
+   #about a:visited {
+      color: #fff;
    }
 
    #about h2 {
-      font-size: 18px;
-      line-height: 22px;
-      margin-bottom: 10px;
+      font: 21px/25px 'opensans-bold', sans-serif;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 22px;
+      border-bottom: 2.5px solid #11ABB0;
    }
 
    #about p {
-      font-size: 14px;
-      line-height: 20px;
+      width: 100%;
+      font-size: 18px;
+      color: #fff;
+      font-family: Helvetica;
    }
 
    .profile-pic-container {
-      margin-bottom: 10px;
-      margin-top: -5px;
+      margin-bottom: 5px;
+      margin-top: -25px;
    }
 
    #about .profile-pic {
-      width: 100%;
-      max-width: 150px;
-      height: auto;
+      width: 285px;
+      height: 255px;
    }
 
+   #about .main-col {
+      padding-left: 25%;
+   }
+
+   .about-me,
    .contact-details {
       text-align: center;
    }
 
    .contact-details div {
-      display: block;
-      margin-bottom: 10px;
-   }
-
-   .contact-details button a {
-      display: block;
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      margin-bottom: 0px;
-   }
-
-   .main-col.centered {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 120%;
-      margin-left: 50px;
-   }
-
-   .main-col.centered .about-me h2,
-   .main-col.centered .contact-details h2,
-   .main-col.centered .about-me p,
-   .main-col.centered .contact-details p {
-      text-align: center;
-   }
-
-   .linkedin-link,
-   .gmail-link {
-      display: inline-block;
-      margin-top: 10px;
-      margin-right: 10px;
-   }
-}
-
-/* Estilos específicos para la versión responsive */
-@media (max-width: 767px) {
-   .contact-details {
-      text-align: center;
-      margin-top: 0px;
-   }
-
-   .icon-button {
-      margin: 0 5px;
+      display: inline-table;
    }
 }
 
