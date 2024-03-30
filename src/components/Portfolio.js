@@ -1,50 +1,6 @@
-//  import React, { Component } from "react";
-//  export default class Porfolio extends Component {
-//    render() {
-//      let resumeData = this.props.resumeData;
-    
-//      return (
-//        <section id="portfolio">
-//          <div className="row">
-//            <div className="twelve columns collapsed">
-//              <h1>
-//               <b>
-//                 Check Out Some of My Projects
-//                 </b> 
-//              </h1>
-//              <div
-//                id="portfolio-wrapper"
-//                className="bgrid-quarters s-bgrid-thirds cf"
-//              >
-//                {resumeData.portfolio &&
-//                  resumeData.portfolio.map((item, key) => {
-//                    return (
-//                      <div key={key} className="columns portfolio-item">
-//                        <div className="item-wrap">
-//                          <a onClick={() => (window.location.href = item.url)}>
-//                            <img src={`${item.imgurl}`} className="item-img" />
-//                            <div className="overlay">
-//                              <div className="portfolio-item-meta">
-//                                <h5>{item.name}</h5>
-//                                <p>{item.description}</p>
-//                              </div>
-//                            </div>
-//                          </a>
-//                        </div>
-//                      </div>
-//                    );
-//                  })}
-//              </div>
-//            </div>
-//          </div>
-//        </section>
-//      );
-//    }
-//  }
- 
 import React, { Component } from "react";
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { FaGithub } from "react-icons/fa6";
+import { GrDeploy } from "react-icons/gr";
 
 export default class Porfolio extends Component {
   render() {
@@ -52,37 +8,28 @@ export default class Porfolio extends Component {
 
     return (
       <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>
-              <b>Check Out Some of My Projects</b>
-            </h1>
-            <Carousel
-              showArrows={true}
-              infiniteLoop={true}
-              showThumbs={false}
-              autoPlay={true}
-              interval={3500}
-            >
-              {resumeData.portfolio &&
-                resumeData.portfolio.map((item, key) => {
-                  return (
-                    <div key={key} className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a onClick={() => (window.location.href = item.url)}>
-                          <img src={`${item.imgurl}`} className="item-img" alt={item.name} />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
-                            </div>
-                          </div>
-                        </a>
+        <h1>Some of my projects</h1>
+        <div className="portfolio-wrapper">
+          <div className="portfolio-card-container">
+            {resumeData.portfolio &&
+              resumeData.portfolio.map((item, key) => {
+                return (
+                  <div key={key} className={`portfolio-card ${key === 3 ? 'bottom-card' : ''}`}>
+                    <img src={item.imgurl} alt={item.name} className="portfolio-card-img" />
+                    <div className="portfolio-card-content">
+                      <h2>{item.name}</h2>
+                      <p>{item.description}</p>
+                      <p>• <u>Stack:</u> {item.stack}</p>
+                      <div className="portfolio-button-container">
+                        <div className="portfolio-button-group">
+                          <a href={item.urlgithub} className="portfolio-button" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                          <a href={item.urldeploy} className="portfolio-button" target="_blank" rel="noopener noreferrer"><GrDeploy /></a>
+                        </div>
                       </div>
                     </div>
-                  );
-                })}
-            </Carousel>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </section>

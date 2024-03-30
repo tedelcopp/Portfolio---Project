@@ -28,24 +28,29 @@ let resumeData = {
       className: "fa fa-cloud-download",
     },
   ],
-  aboutme:"I've always been passionate about technology, and finally decided to start studying in 2022. First on my own, then I began an intensive bootcamp which I completed in 2023.",
+  aboutme1:" I'm Tomás Edelcopp from Buenos Aires, Argentina. A passionate learner who enjoys creating things that live on the internet. I'm a Software Developer, with strong administrative, communication skills and good attention to details.",
+  aboutme2:"After completing my Full-Stack Web Development course, I got the opportunity to become Teacher Assistant for the newly joined students, there i used to help +30 students in clearing their doubts related to web development & guided them during their entire course. Currently, I'm pursuing a technical degree in software development. ",
   address: "📍 Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
-      UniversityName: "UTN",
-      specialization: "Digital Marketing & Social Media",
-      MonthOfPassing: "Nov",
-      YearOfPassing: "2020",
+      UniversityName: "IFTS Nº18",
+      specialization: "Senior Technician in Software Development",
+      MonthOfPassing: "March",
+      YearOfPassing: "2024",
     },
     {
       UniversityName: "Soy Henry",
       specialization: "Full Stack Developer",
       MonthOfPassing: "July",
       YearOfPassing: "2023",
-      Achievements:
-        "Intensive bootcamp for Full Stack Developers with over 800 hours of coding. Technologies learned: Javascript, React, Redux, HTML5, CSS, Node, Express, PostgreSQL and Sequelize",
     },
+    {
+      UniversityName: "UTN",
+      specialization: "Digital Marketing & Social Media - Community Manager",
+      MonthOfPassing: "November",
+      YearOfPassing: "2020",
+    }
   ],
   work: [
     {
@@ -60,41 +65,38 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "The Green Darwin",
-      description:
-        "A virtual store of a nursery that offers the sale of plants and garden care items.",
-      imgurl: "https://i.ibb.co/bFthRw5/The-Green-Darwin-Project.png",
-      url: "https://the-green-darwin-front.vercel.app/",
-      target: "_blank",
-    },
-    {
-      name: "Portfolio",
-      description:
-        "Using React, I have created a simple yet effective SPA portfolio to showcase my experience.",
-      imgurl: "https://i.ibb.co/MBF250q/Captura-de-pantalla-2023-10-17-152839.png",
-      url: "https://portfolio-te.vercel.app/",
-      target: "_blank",
-    },
-    {
       name: "Dog´s Finder App",
-      description: "SPA",
+      description: "Single Page Application that displays information about all countries brought through an external API. The app is capable of paginating the results, sort them alphabetically, as well as by race, weight, and size.",
       imgurl: "https://i.ibb.co/RDPHy1Q/Dogs-Finder-Project.png",
-      url: "https://portfolio-te.vercel.app/",
-      target: "_blank",
+      urlgithub: "",
+      urldeploy: "",
+      stack:" ReactJS, JavaScript, SAAS, Redux, Node & Sequelize."
     },
     {
       name: "Winery App",
-      description: "Eccomerce",
-      imgurl: "https://i.ibb.co/f1tW5wK/Winery-Project.png",
-      url: "https://henrywinery.netlify.app/",
+      description: "An E-Commerce platform dedicated to wine enthusiasts, offering a unique shopping and discovery experience for select wines from around the world. With an elegant and user-friendly interface, the app allows users to explore a wide selection of wines.",
+      imgurl: "https://i.ibb.co/sgK1GS5/Winery-Project.png",
       target: "_blank",
+      urlgithub: "https://github.com/SystemGDS/wineryFront",
+      urldeploy: "https://wineryhenry.vercel.app/",
+      stack:" JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize"
     },
     {
-      name: "Grow",
-      description: "App",
+      name: "Portfolio",
+      description:"An interactive Single Page Application to showcase my experience and projects in a clear and effective manner. This portfolio allows visitors to easily explore my projects, skills, and achievements. With an intuitive design and smooth navigation.",
+      imgurl: "https://i.ibb.co/MBF250q/Captura-de-pantalla-2023-10-17-152839.png",
+      urlgithub: "https://github.com/tedelcopp/Portfolio",
+      urldeploy: "https://portfolio-te.vercel.app/",
+      stack:" JavaScript, ReactJS, CSS, HTML"
+    },
+    {
+      name: "Patch & Me",
+      description: "An e-Commerce platform dedicated to patch enthusiasts, offering a unique shopping and discovery experience for custom patches for garments from around the world. With a modern and user-friendly interface, the app allows users to explore a wide selection of patches.",
       imgurl: "https://i.ibb.co/Zg6wjj2/Grow-Project.png",
-      url: "https://grow-d911fxl4q-tedelcopp.vercel.app/",
       target: "_blank",
+      urlgithub:"https://github.com/tedelcopp/PatchMe-Front",
+      urldeploy: "",
+      stack:" JavaScript, React.JS, BootStrap, CSS"
     },
   ],
 };

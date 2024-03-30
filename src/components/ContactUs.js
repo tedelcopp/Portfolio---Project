@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { PiCoffeeFill } from "react-icons/pi";
 import emailjs from 'emailjs-com';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default class ContactUs extends Component {
   constructor(props) {
@@ -8,19 +10,11 @@ export default class ContactUs extends Component {
       name: '',
       email: '',
       message: '',
-      successMessage: '',
-      errorMessage: '',
     };
   }
 
   handleInputChange = (event) => {
     const { name, value } = event.target;
-
-    // Limpiar los mensajes de error cuando se comienza a escribir
-    if (this.state.errorMessage) {
-      this.setState({ errorMessage: '' });
-    }
-
     this.setState({ [name]: value });
   };
 
@@ -32,18 +26,11 @@ export default class ContactUs extends Component {
     const messageError = !this.state.message ? 'Please enter your message.' : '';
 
     if (nameError || emailError || messageError) {
-      this.setState({
-        errorMessage: 'Please fill in all the fields.',
-      });
-      return;
+      return toast.error('Please fill in all the fields.');
     }
 
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
-      this.setState({
-        errorMessage: 'Please enter a valid email address.',
-        successMessage: '',
-      });
-      return;
+      return toast.error('Please enter a valid email address.');
     }
 
     const emailData = {
@@ -53,40 +40,38 @@ export default class ContactUs extends Component {
     };
 
     try {
-      const response = await emailjs.send(
+      await emailjs.send(
         'service_378vtrg',
         'template_odpoh9i',
         emailData,
         'THDtUsAxnateC4RGm'
       );
 
-      console.log('Respuesta de EmailJS:', response);
+      toast.success('Your email was sent successfully!');
 
       this.setState({
-        successMessage: 'Your email has been sent successfully! You will receive a response soon.',
-        errorMessage: '',
         name: '',
         email: '',
         message: '',
       });
     } catch (error) {
-      console.error('Error sending email via EmailJS:', error);
-
-      this.setState({
-        errorMessage: 'There was an error sending the email. Please try again.',
-        successMessage: '',
-      });
+      console.error('Error sending your email:', error);
+      toast.error('There was an error sending the email. Please try again!.');
     }
   };
 
   render() {
     return (
       <section id="contact" className="contact-section">
+    <Toaster
+  position="top-center"
+  reverseOrder={false}
+/>
         <div className="container">
           <div className="row">
             <div className="col-md-10 col-md-offset-1 text-center">
-              <p className="lead">
-                Feel free to contact me for any work or suggestions below!
+              <p className="lead" style={{ color: "#fff", fontFamily: "sans-serif " }}>
+                Take a coffee, let's talk! <PiCoffeeFill className="pi-coffee-icon" />
               </p>
             </div>
           </div>
@@ -98,7 +83,7 @@ export default class ContactUs extends Component {
                     type="text"
                     name="name"
                     className="form-control custom-input-width"
-                    placeholder="Name"
+                    placeholder="Tomás Edelcopp"
                     value={this.state.name}
                     onChange={this.handleInputChange}
                   />
@@ -108,7 +93,7 @@ export default class ContactUs extends Component {
                     type="email"
                     name="email"
                     className="form-control custom-input-width"
-                    placeholder="E-mail"
+                    placeholder="tomas.edelcopp@gmail.com"
                     value={this.state.email}
                     onChange={this.handleInputChange}
                   />
@@ -117,24 +102,12 @@ export default class ContactUs extends Component {
                   <textarea
                     name="message"
                     className="form-control custom-input-width"
-                    placeholder="Message"
+                    placeholder="Hi!, I want to work with you.."
                     rows="5"
                     value={this.state.message}
                     onChange={this.handleInputChange}
                   ></textarea>
                 </div>
-
-                {this.state.errorMessage && (
-                  <div className="custom-alert custom-alert-danger">
-                    {this.state.errorMessage}
-                  </div>
-                )}
-
-                {this.state.successMessage && (
-                  <div className="custom-alert custom-alert-success">
-                    {this.state.successMessage}
-                  </div>
-                )}
 
                 <div className="text-center">
                   <button

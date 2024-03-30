@@ -42,7 +42,7 @@ export default class Header extends Component {
              A passionate Software Developer based in Argentina.{resumeData.roleDescription}
               </h3>
               <hr />
-              <ul className="social">
+              {/* <ul className="social">
                 {resumeData.socialLinks &&
                   resumeData.socialLinks.map((item) => {
                     return (
@@ -53,7 +53,7 @@ export default class Header extends Component {
                       </li>
                     );
                   })}
-              </ul>
+              </ul> */}
             </div>
           </div>
 
