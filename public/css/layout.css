@@ -256,18 +256,26 @@ ul#nav li.current a {
 
 .contact-details button {
    background-color: transparent;
-   margin: 5px 45px 25px;
+   margin: 5px 15px 25px;
    padding: 1px;
 }
 
 .contact-details button a {
    color: #fff;
    font-size: 19.5px;
-   padding: 20px 35px;
+   padding: 10px 30px;
    border-radius: 25px;
    background-color: #11ABB0;
    display: block;
    text-decoration: none;
+}
+
+.contact-details button:hover {
+   transform: translateY(-3px);
+}
+
+.contact-details button:hover a {
+   background-color: #B15314;
 }
 
 /* Wave Hand Animation */
@@ -333,7 +341,7 @@ button.jumping {
    }
 }
 
-/* Footer Screens Responsive  */
+/* About Screens Responsive  */
 @media (max-width: 767px) {
    #about {
       padding-top: 30px;
@@ -404,6 +412,18 @@ button.jumping {
       display: inline-block;
       margin-top: 10px;
       margin-right: 10px;
+   }
+}
+
+/* Estilos específicos para la versión responsive */
+@media (max-width: 767px) {
+   .contact-details {
+      text-align: center;
+      margin-top: 0px;
+   }
+
+   .icon-button {
+      margin: 0 5px;
    }
 }
 
