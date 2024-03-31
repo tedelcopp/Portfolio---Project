@@ -21,7 +21,6 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-
 body {
    background: #0f0f0f;
    overflow-x: hidden;
@@ -31,7 +30,6 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
 header {
    position: relative;
    height: 800px;
@@ -51,6 +49,10 @@ header:before {
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+}
+
+.banner-text h1 {
+   font-size: 1px;
 }
 
 header .banner {
@@ -192,6 +194,7 @@ ul#nav li a:active {
 ul#nav li.current a {
    color: #F06000;
 }
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -342,63 +345,88 @@ button.jumping {
 
 /* About Screens Responsive  */
 @media (max-width: 767px) {
-
-   #about-master {
-      width: fit-content;
-      background-color: #000000;
-   }
-
-
    #about {
-      padding-top: 40px;
-      user-select: none;
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-
-   #about a,
-   #about a:visited {
-      color: #fff;
+      margin: 0 auto;
    }
 
    #about h2 {
-      font: 21px/25px 'opensans-bold', sans-serif;
+      font: 20px/25px 'opensans-bold', sans-serif;
       color: #fff;
       text-align: center;
+      padding-bottom: 9px;
       margin-bottom: 22px;
       border-bottom: 2.5px solid #11ABB0;
    }
 
    #about p {
       width: 100%;
-      font-size: 18px;
+      font-size: 15px;
       color: #fff;
-      font-family: Helvetica;
+      line-height: 1.5em;
+      font-family: Helvetica, Sans-Serif;
+   }
+
+   .wave {
+      font-size: 14px;
+      animation-name: wave-animation;
+      animation-duration: 2.1s;
+      animation-iteration-count: infinite;
+      transform-origin: 70% 70%;
+      display: inline-block;
    }
 
    .profile-pic-container {
-      margin-bottom: 5px;
-      margin-top: -25px;
-   }
-
-   #about .profile-pic {
-      width: 285px;
-      height: 255px;
+      margin-bottom: 15px;
+      margin-top: -15px;
    }
 
    #about .main-col {
-      padding-left: 25%;
+      text-align: center
    }
 
-   .about-me,
+   .about-me {
+      display: inline-grid;
+      flex-direction: column;
+      align-items: center;
+      width: 125%;
+   }
+
    .contact-details {
-      text-align: center;
+      display: inline-grid;
    }
 
-   .contact-details div {
-      display: inline-table;
+   .contact-details button {
+      background-color: transparent;
+      margin: 5px 10px 10px 40px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+   }
+
+   .contact-details>div {
+      margin-bottom: 10px;
+   }
+
+   .contact-details button a {
+      color: #fff;
+      font-size: 16.5px;
+      padding: 5px 30px 5px;
+      background-color: #11ABB0;
+      display: table-column;
+   }
+
+   .contact-details .jumping {
+      margin-left: 16px;
+      margin-top: 20px;
+      margin-bottom: -30px;
+   }
+
+   .contact-details button:hover {
+      transform: translateY(-3px);
+   }
+
+   .contact-details button:hover a {
+      background-color: #B15314;
    }
 }
 

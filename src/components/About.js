@@ -16,7 +16,7 @@ export default class About extends Component {
     return (
       <section id="about">
       <div className="row">
-        <div className="eight columns main-col centered">
+        <div className="six columns main-col centered">
           <div className="about-me">
             <h2>About Me</h2>
             <p>Hello!<span className="wave">👋</span>{resumeData.aboutme1} </p>
@@ -25,15 +25,12 @@ export default class About extends Component {
             </div>
             <p>{resumeData.aboutme2}</p>
           </div>
-          <div className="about-master">
             <div className="contact-details">
               <h2>Contact Details</h2>
-              <div className="social-links">
-          
                 <div>
                   <button>
                     <a className="linkedin-link" href="https://www.linkedin.com/in/edelcopp/" target="_blank" rel="noopener noreferrer">
-                      <FaLinkedin /> 
+                      <FaLinkedin className="social-link" /> 
                     </a>
                   </button>
                 </div>
@@ -53,7 +50,7 @@ export default class About extends Component {
                 </div>
                 <div>
                   <button className="jumping">
-                    <a href="https://drive.google.com/file/d/1u-iyRovLAIHLdCFwxu7pTqVXfgY4fkjn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    <a  href="https://drive.google.com/file/d/1u-iyRovLAIHLdCFwxu7pTqVXfgY4fkjn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                       Check out my resume!
                     </a>
                   </button>
@@ -61,9 +58,6 @@ export default class About extends Component {
                 </div>
    </div>
               </div>
-            </div>
-          </div>
-     
       </section>
     );
   }
