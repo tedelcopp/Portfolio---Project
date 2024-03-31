@@ -9,12 +9,13 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   d. Social Section
+   e. Resume Section
+   f. Portfolio Section
+   g. Call To Action Section
+   h. Testimonials Section
+   i. Contact Section
+   j. Footer
 
 ===================================================================== */
 
@@ -202,8 +203,8 @@ ul#nav li.current a {
 /* Version Ordenador  */
 #about {
    background: #2B2B2B;
-   padding-top: 76px;
-   padding-bottom: 76px;
+   padding-top: 30px;
+   padding-bottom: 30px;
    user-select: none;
    max-width: 100%;
    display: flex;
@@ -217,11 +218,11 @@ ul#nav li.current a {
 }
 
 #about h2 {
-   font: 21px/25px 'opensans-bold', sans-serif;
+   font: 26px/35px 'opensans-bold', sans-serif;
    color: #fff;
    text-align: center;
    margin-bottom: 22px;
-   border-bottom: 2.5px solid #11ABB0;
+   border-bottom: 3.5px solid #11ABB0;
    padding-bottom: 9px;
 }
 
@@ -247,37 +248,8 @@ ul#nav li.current a {
    padding-right: 5%;
 }
 
-.about-me,
-.contact-details {
+.about-me {
    text-align: center;
-}
-
-.contact-details div {
-   display: inline-table;
-}
-
-.contact-details button {
-   background-color: transparent;
-   margin: 5px 15px 25px;
-   padding: 1px;
-}
-
-.contact-details button a {
-   color: #fff;
-   font-size: 19.5px;
-   padding: 10px 30px;
-   border-radius: 25px;
-   background-color: #11ABB0;
-   display: block;
-   text-decoration: none;
-}
-
-.contact-details button:hover {
-   transform: translateY(-3px);
-}
-
-.contact-details button:hover a {
-   background-color: #B15314;
 }
 
 /* Wave Hand Animation */
@@ -350,12 +322,13 @@ button.jumping {
    }
 
    #about h2 {
-      font: 20px/25px 'opensans-bold', sans-serif;
+      font: 22px/25px 'opensans-bold', sans-serif;
       color: #fff;
       text-align: center;
       padding-bottom: 9px;
       margin-bottom: 22px;
-      border-bottom: 2.5px solid #11ABB0;
+      border-width: 100vh;
+      border-bottom: 3.5px solid #11ABB0;
    }
 
    #about p {
@@ -390,35 +363,75 @@ button.jumping {
       align-items: center;
       width: 125%;
    }
+}
 
+/* ------------------------------------------------------------------ */
+/* d. Social Section
+/* ------------------------------------------------------------------ */
+/* Version Ordenador  */
+.contact-details {
+   text-align: center;
+   padding-top: 20px;
+   background-color: #EBEEEE;
+}
+
+.contact-details div {
+   display: inline-table;
+}
+
+.contact-details h2 {
+   font: 26px/25px 'opensans-bold', sans-serif;
+   color: #313131;
+   padding-bottom: 10px;
+   margin-bottom: 25px;
+   border-bottom: 3.5px solid #11ABB0;
+}
+
+.contact-details button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+}
+
+.contact-details button a {
+   color: #fff;
+   font-size: 19.5px;
+   padding: 10px 30px;
+   border-radius: 25px;
+   background-color: #313131;
+}
+
+.contact-details button:hover {
+   transform: translateY(-5px);
+}
+
+.contact-details button:hover a {
+   background-color: #11ABB0;
+}
+
+/* Social Screens Responsive  */
+
+@media (max-width: 767px) {
    .contact-details {
-      display: inline-grid;
-   }
-
-   .contact-details button {
-      background-color: transparent;
-      margin: 5px 10px 10px 40px;
-      justify-content: center;
       display: flex;
+      flex-direction: column;
       align-items: center;
+      text-align: center;
    }
 
-   .contact-details>div {
-      margin-bottom: 10px;
+   .contact-details h2 {
+      font: 22px/25px 'opensans-bold', sans-serif;
+      color: #313131;
+      border-bottom: 3.5px solid #11ABB0;
+
    }
 
    .contact-details button a {
       color: #fff;
-      font-size: 16.5px;
-      padding: 5px 30px 5px;
-      background-color: #11ABB0;
-      display: table-column;
-   }
+      font-size: 17.5px;
+      background-color: #313131;
 
-   .contact-details .jumping {
-      margin-left: 16px;
-      margin-top: 20px;
-      margin-bottom: -30px;
    }
 
    .contact-details button:hover {
@@ -426,9 +439,10 @@ button.jumping {
    }
 
    .contact-details button:hover a {
-      background-color: #B15314;
+      background-color: #11ABB0;
    }
 }
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -1298,7 +1312,7 @@ s #contact input,
 }
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
