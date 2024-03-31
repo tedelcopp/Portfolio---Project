@@ -8,7 +8,7 @@ export default class Social extends Component {
     let resumeData = this.props.resumeData;
     return (
            <div className="contact-details">
-              <h2>CONTACT DETAILS</h2>
+              <h2>Contact Details</h2>
                 <div>
                   <button className="social-button linkedin-link">
                     <a href="https://www.linkedin.com/in/edelcopp/" target="_blank" rel="noopener noreferrer">
