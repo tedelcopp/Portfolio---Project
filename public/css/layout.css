@@ -415,17 +415,17 @@ button.jumping {
 }
 
 .contact-details button:hover a {
-   background-color: #11ABB0;
+   filter: drop-shadow(1px 1px 20px yellow);
+   color: blue;
+
 }
 
 /* Social Screens Responsive  */
 
 @media (max-width: 767px) {
    .contact-details {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      display: inline-block;
+      padding: 10px 0px 10px;
    }
 
    .contact-details h2 {
@@ -435,14 +435,13 @@ button.jumping {
       text-transform: uppercase;
       letter-spacing: 1px;
       max-width: 50%;
-      /* Por ejemplo, limita el ancho al 80% del contenedor */
       margin-left: auto;
       margin-right: auto;
    }
 
    .contact-details button a {
       color: #fff;
-      font-size: 17.5px;
+      font-size: 20px;
       background-color: #313131;
 
    }
@@ -455,7 +454,6 @@ button.jumping {
       background-color: #11ABB0;
    }
 }
-
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -1407,7 +1405,7 @@ footer .social-links li:first-child {
 #go-top {
    position: absolute;
    top: -24px;
-   left: 50%;
+   left: 49.8%;
    margin-left: -30px;
 }
 
