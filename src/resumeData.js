@@ -92,7 +92,7 @@ let resumeData = {
     {
       name: "Patch & Me",
       description: "An e-Commerce platform dedicated to patch enthusiasts, offering a unique shopping and discovery experience for custom patches for garments from around the world. With a modern and user-friendly interface, the app allows users to explore a wide selection of patches.",
-      imgurl: "https://i.ibb.co/Zg6wjj2/Grow-Project.png",
+      imgurl: "https://i.ibb.co/BZdzpM5/Sin-t-tulo.png",
       target: "_blank",
       urlgithub:"https://github.com/tedelcopp/PatchMe-Front",
       urldeploy: "",
