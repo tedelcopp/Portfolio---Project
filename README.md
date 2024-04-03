@@ -1,15 +1,16 @@
 # ¡Bienvenido a mi portafolio!
 
-Esta es una Single Page Application diseñada para mostrar mi experiencia de manera clara y efectiva. Este portafolio permite a los visitantes explorar fácilmente mis proyectos, habilidades y logros. Con un diseño intuitivo y una navegación fluida, te invito a descubrir más sobre mí.
+Una Single Page Application diseñada para mostrar mi experiencia como Full-Stack Devoleper. Permitiendo a los visitantes explorar fácilmente mis proyectos, habilidades y logros. Con un diseño intuitivo, responsivo y de navegación fluida, te invito a descubrir más sobre mí.
 
 ## ¿Qué encontrarás aquí?
 
-Proyectos: Explora una variedad de proyectos en los que he trabajado, cada uno con una breve descripción y enlaces a sus repositorios y demostraciones si están disponibles.
+Experiencia: Obtén información sobre mi trayectoria profesional, incluyendo roles anteriores, responsabilidades y logros destacados.
 
 Habilidades: Descubre las habilidades técnicas que he desarrollado a lo largo de mi carrera, desde tecnologías específicas hasta metodologías de desarrollo.
 
-Experiencia: Obtén información sobre mi trayectoria profesional, incluyendo roles anteriores, responsabilidades y logros destacados.
+Contacto: ¿Interesado en colaborar o simplemente quieres decir hola? Encuentra mi informacion personal en el apartado de contacto.
 
-Contacto: ¿Interesado en colaborar o simplemente quieres decir hola? Encuentra información de contacto al final de la página.
+Proyectos: Explora los proyectos en los que he trabajado, cada uno con su descripción y enlaces a sus repositorios y demostraciones.
 
-¡Gracias por visitar mi portafolio! Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo.
+
+¡Gracias por visitar mi portafolio! Saludos, Tomás.
