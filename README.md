@@ -12,5 +12,4 @@ Contacto: ¿Interesado en colaborar o simplemente quieres decir hola? Encuentra 
 
 Proyectos: Explora los proyectos en los que he trabajado, cada uno con su descripción y enlaces a sus repositorios y demostraciones.
 
-<h3 align="center">Título Centrado</h3>
-¡Gracias por visitar mi portafolio! Saludos, Tomás.
+<h4 align="center">¡Gracias por visitar mi portafolio! Saludos, Tomás.</h4>
