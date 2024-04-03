@@ -407,7 +407,7 @@ button.jumping {
    font-size: 19.5px;
    padding: 10px 30px;
    border-radius: 25px;
-   background-color: #313131;
+   background-color: #6c6b6b;
 }
 
 .contact-details button:hover {
@@ -415,9 +415,16 @@ button.jumping {
 }
 
 .contact-details button:hover a {
-   filter: drop-shadow(1px 1px 20px yellow);
-   color: blue;
+   filter: drop-shadow(1px 1px 20px #11ABB0);
+   color: #11ABB0;
+}
 
+.contact-details .resume-button a {
+   color: #fff;
+}
+
+.contact-details .resume-button:hover a {
+   color: #fff;
 }
 
 /* Social Screens Responsive  */

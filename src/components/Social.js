@@ -31,7 +31,7 @@ export default class Social extends Component {
                   </button>
                 </div>
                 <div>
-                  <button className="jumping">
+                  <button className="jumping resume-button">
                     <a  href="https://drive.google.com/file/d/1u-iyRovLAIHLdCFwxu7pTqVXfgY4fkjn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                       Check out my resume!
                     </a>
