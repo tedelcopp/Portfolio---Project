@@ -1,4 +1,4 @@
-# ¡Bienvenido a mi portafolio!
+# ¡Bienvenido a mi portfolio!
 
 Una Single Page Application diseñada para mostrar mi experiencia como Full-Stack Devoleper. Permitiendo a los visitantes explorar fácilmente mis proyectos, habilidades y logros. Con un diseño intuitivo, responsivo y de navegación fluida, te invito a descubrir más sobre mí.
 
@@ -12,4 +12,4 @@ Contacto: ¿Interesado en colaborar o simplemente quieres decir hola? Encuentra 
 
 Proyectos: Explora los proyectos en los que he trabajado, cada uno con su descripción y enlaces a sus repositorios y demostraciones.
 
-<h4 align="center">¡Gracias por visitar mi portafolio! Saludos, Tomás.</h4>
+<h4 align="center">¡Gracias por visitar mi portfolio! Saludos, Tomás.</h4>
