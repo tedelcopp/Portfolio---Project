@@ -1,10 +1,7 @@
 # ¡Bienvenido a mi portfolio!
-
 Una Single Page Application diseñada para mostrar mi experiencia como Full-Stack Devoleper. Permitiendo a los visitantes explorar fácilmente mis proyectos, habilidades y logros. Con un diseño intuitivo, responsivo y de navegación fluida, te invito a descubrir más sobre mí.
 
 ## ¿Qué encontrarás aquí?
-
-
 <div align="left">
  • Experiencia: Obtén información sobre mi trayectoria profesional, incluyendo roles anteriores, responsabilidades y logros destacados.
 
