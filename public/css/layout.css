@@ -231,7 +231,7 @@ ul#nav li.current a {
    font-size: 18px;
    color: #fff;
    line-height: 1.5em;
-   font-family: Helvetica, Sans-Serif;
+   font-family: system-ui;
 }
 
 .profile-pic-container {
@@ -390,7 +390,6 @@ button.jumping {
    margin-bottom: 25px;
    border-bottom: 3.5px solid #11ABB0;
    max-width: 50%;
-   /* Por ejemplo, limita el ancho al 80% del contenedor */
    margin-left: auto;
    margin-right: auto;
 }

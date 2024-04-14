@@ -102,7 +102,7 @@ let resumeData = {
       imgurl: "https://i.ibb.co/BZdzpM5/Sin-t-tulo.png",
       target: "_blank",
       urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
-      urldeploy: "https://patch-me-front.vercel.app/",
+      urldeploy: "https://github.com/tedelcopp/Portfolio",
       stack: " JavaScript, React.JS, BootStrap, CSS",
     },
   ],
