@@ -1311,6 +1311,8 @@ s #contact input,
 @media screen and (max-width: 768px) {
    .send-button {
       margin-top: 15px;
+      margin-right: -9.5px;
+      display:inline-block;
       margin-bottom: -15px;
    }
 
