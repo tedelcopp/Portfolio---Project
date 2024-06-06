@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { PiCoffeeFill } from "react-icons/pi";
-import emailjs from 'emailjs-com';
-import toast, { Toaster } from 'react-hot-toast';
+import emailjs from "emailjs-com";
+import toast, { Toaster } from "react-hot-toast";
 
 export default class ContactUs extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
-      email: '',
-      message: '',
+      name: "",
+      email: "",
+      message: "",
     };
   }
 
@@ -21,16 +21,18 @@ export default class ContactUs extends Component {
   sendEmail = async (e) => {
     e.preventDefault();
 
-    const nameError = !this.state.name ? 'Please enter your name.' : '';
-    const emailError = !this.state.email ? 'Please enter your email.' : '';
-    const messageError = !this.state.message ? 'Please enter your message.' : '';
+    const nameError = !this.state.name ? "Please enter your name." : "";
+    const emailError = !this.state.email ? "Please enter your email." : "";
+    const messageError = !this.state.message
+      ? "Please enter your message."
+      : "";
 
     if (nameError || emailError || messageError) {
-      return toast.error('Please fill in all the fields.');
+      return toast.error("Please fill in all the fields.");
     }
 
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
-      return toast.error('Please enter a valid email address.');
+      return toast.error("Please enter a valid email address.");
     }
 
     const emailData = {
@@ -41,37 +43,42 @@ export default class ContactUs extends Component {
 
     try {
       await emailjs.send(
-        'service_378vtrg',
-        'template_odpoh9i',
+        "service_378vtrg",
+        "template_odpoh9i",
         emailData,
-        'THDtUsAxnateC4RGm'
+        "THDtUsAxnateC4RGm"
       );
 
-      toast.success('Your email was sent successfully!');
+      toast.success("Your email was sent successfully!");
 
       this.setState({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       });
     } catch (error) {
-      console.error('Error sending your email:', error);
-      toast.error('There was an error sending the email. Please try again!.');
+      console.error("Error sending your email:", error);
+      toast.error("There was an error sending the email. Please try again!.");
     }
   };
 
   render() {
     return (
       <section id="contact" className="contact-section">
-    <Toaster
-  position="top-center"
-  reverseOrder={false}
-/>
+        <Toaster position="top-center" reverseOrder={false} />
         <div className="container">
           <div className="row">
             <div className="col-md-10 col-md-offset-1 text-center">
-              <p className="lead" style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                Take a coffee, let's talk! <PiCoffeeFill className="pi-coffee-icon" />
+              <p
+                className="lead"
+                style={{
+                  color: "#fff",
+                  fontFamily: "sans-serif ",
+                  textTransform: "uppercase",
+                }}
+              >
+                Take a coffee, let's talk!{" "}
+                <PiCoffeeFill className="pi-coffee-icon" />
               </p>
             </div>
           </div>
@@ -110,10 +117,7 @@ export default class ContactUs extends Component {
                 </div>
 
                 <div className="text-center">
-                  <button
-                    type="submit"
-                    className="btn btn-primary send-button"
-                  >
+                  <button type="submit" className="btn btn-primary send-button">
                     Send
                   </button>
                 </div>

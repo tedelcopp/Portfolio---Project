@@ -1116,7 +1116,8 @@ button.jumping {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: rgb(0,0,5);
+   background: linear-gradient(180deg, rgba(0,0,5,1) 46%, rgba(17,171,176,0.5550595238095238) 100%);
    padding-top: 96px;
    padding-bottom: 102px;
    user-select: none;
@@ -1124,12 +1125,11 @@ button.jumping {
 }
 
 #contact p {
-   margin-bottom: 50px;
+   margin-bottom: 35px;
    color: #e5e5e5;
-   border-bottom: 3px solid #25ABB0;
+   border-bottom: 5px solid #25ABB0;
+   display: inline-block;
    font: 35px/34px 'opensans-bold', sans-serif;
-
-
 }
 
 #contact input::placeholder,
@@ -1141,7 +1141,7 @@ button.jumping {
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
-   font-size: 16px;
+   font-size: 16px ; 
 }
 
 s #contact input,
@@ -1154,6 +1154,7 @@ s #contact input,
    outline: none;
    font-size: 16.5px;
    line-height: 24px;
+   font: 35px/34px 'opensans', sans-serif;
 }
 
 #contact input:focus,
@@ -1271,8 +1272,8 @@ s #contact input,
 }
 
 .send-button {
-   margin-top: 10px;
-   margin-bottom: -40px;
+   margin-top: -10px;
+   margin-bottom: -90px;
    margin-right: 5px;
 
 }
