@@ -4,8 +4,7 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-     <header id="home" className="header">
-
+        <header id="home" className="header">
           <nav id="nav-wrap">
             <ul id="nav" className="nav">
               <li className="current">
@@ -40,7 +39,7 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1>I'm {resumeData.name}.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-             A passionate Software Developer based in Argentina.{resumeData.roleDescription}
+                {resumeData.roleDescription}
               </h3>
               <hr />
             </div>

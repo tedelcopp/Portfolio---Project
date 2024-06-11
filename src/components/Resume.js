@@ -47,7 +47,7 @@ export default class Resume extends Component {
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
-                      {item.specialization}
+                        {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
                           {item.MonthOfLeaving} {item.YearOfLeaving}
@@ -82,9 +82,9 @@ export default class Resume extends Component {
               <div className="skills__skill">Bootstrap</div>
               <div className="skills__skill">MySQL</div>
               <div className="skills__skill">Vue.js</div>
-              <div className="skills__skill">Figma</div>
               <div className="skills__skill">MUI</div>
               <div className="skills__skill">Vite</div>
+              <div className="skills__skill">Python</div>
               <div className="skills__skill">Next.js</div>
             </div>
           </div>

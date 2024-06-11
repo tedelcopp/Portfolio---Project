@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
   roleDescription:
-    "I love staying up to date with the latest technology trends and enjoy constantly learning and improving my technical skills. I build the web elements that you ever wanted to see.",
+    "A Software Developer based in Argentina, currently studying Software Development. I'm passionate about staying up to date with the latest technology trends and constantly improving my technical skills.",
   socialLinks: [
     {
       name: "linkedin",
@@ -42,19 +42,27 @@ let resumeData = {
       YearOfPassing: "2024",
     },
     {
-      UniversityName: "Soy Henry",
+      UniversityName: "Henry",
       specialization: "Full Stack Developer",
       MonthOfPassing: "July",
       YearOfPassing: "2023",
     },
     {
       UniversityName: "UTN",
-      specialization: "Digital Marketing & Social Media - Community Manager",
+      specialization: "Digital Marketing & Social Media",
       MonthOfPassing: "November",
       YearOfPassing: "2020",
     },
   ],
   work: [
+    {
+      CompanyName: "Henry",
+      specialization: "Teaching Assistant",
+      MonthOfLeaving: "Jul",
+      YearOfLeaving: "2023",
+      Achievements:
+        "I coordinate a group of more than 20 students to achieve integration into the study group, assist in solving exercises and promote group collaboration, and guide students in the first steps of the course.",
+    },
     {
       CompanyName: "Faena Buenos Aires",
       specialization: "Supervisor in Special Events",
