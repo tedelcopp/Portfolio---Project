@@ -74,7 +74,7 @@ export default class Resume extends Component {
               <div className="skills__skill">JavaScript</div>
               <div className="skills__skill">React</div>
               <div className="skills__skill">Redux</div>
-              <div className="skills__skill">Node</div>
+              <div className="skills__skill">Node.js</div>
               <div className="skills__skill">Express</div>
               <div className="skills__skill">PostgreSQL</div>
               <div className="skills__skill">MongoDB</div>
