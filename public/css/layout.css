@@ -372,15 +372,19 @@ button.jumping {
 /* d. Social Section
 /* ------------------------------------------------------------------ */
 /* Version Ordenador  */
-.contact-details {
-   text-align: center;
-   padding-top: 20px;
-   padding-right: 60px;
+.contact-details-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
    background-color: #EBEEEE;
 }
 
-.contact-details div {
-   display: inline-table;
+.contact-details {
+   text-align: center;
+   padding: 20px 30px; 
+   background-color: #EBEEEE;
+
 }
 
 .contact-details h2 {
@@ -389,10 +393,16 @@ button.jumping {
    letter-spacing: 1px;
    color: #313131;
    padding-bottom: 10px;
-   /* margin-bottom: 25px; */
    border-bottom: 3.5px solid #11ABB0;
    display: inline-block;
-   max-width: 100%;
+   margin: 0 auto; 
+}
+
+.social-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin: 20px 0;
 }
 
 .contact-details button {
@@ -419,6 +429,15 @@ button.jumping {
    color: #11ABB0;
 }
 
+.resume-button {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.resume-button button {
+   display: inline-block;
+}
+
 .contact-details .resume-button a {
    color: #fff;
 }
@@ -430,9 +449,12 @@ button.jumping {
 /* Social Screens Responsive  */
 
 @media (max-width: 767px) {
+   .contact-details-container {
+      padding: 10px 0;
+   }
+
    .contact-details {
-      display: inline-block;
-      padding: 10px 0px 10px;
+      padding: 10px 20px;
    }
 
    .contact-details h2 {
@@ -441,16 +463,20 @@ button.jumping {
       border-bottom: 3.5px solid #11ABB0;
       text-transform: uppercase;
       letter-spacing: 1px;
-      max-width: 50%;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto 10px;
+      display: inline-block;
+   }
+
+   .social-buttons {
+      display: flex;
+      justify-content: space-between; 
+      gap: 0px;
    }
 
    .contact-details button a {
       color: #fff;
       font-size: 20px;
       background-color: #313131;
-
    }
 
    .contact-details button:hover {
@@ -459,6 +485,10 @@ button.jumping {
 
    .contact-details button:hover a {
       background-color: #11ABB0;
+   }
+
+   .resume-button {
+      margin-top: 10px; 
    }
 }
 
@@ -1119,7 +1149,6 @@ button.jumping {
    padding-top: 96px;
    padding-bottom: 102px;
    user-select: none;
-
 }
 
 #contact p {
