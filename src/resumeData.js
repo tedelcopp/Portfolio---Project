@@ -75,25 +75,6 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "Dog´s Finder App",
-      description:
-        "Single Page Application that displays information about all countries brought through an external API. The app is capable of paginating the results, sort them alphabetically, as well as by race, weight, and size.",
-      imgurl: require("./components/Images/DogsFinderApp.png"),
-      urlgithub: "https://github.com/tedelcopp/DogsFinder---App",
-      urldeploy: "",
-      stack: " ReactJS, JavaScript, SAAS, Redux, Node & Sequelize.",
-    },
-    {
-      name: "Winery App",
-      description:
-        "An E-Commerce platform dedicated to wine enthusiasts, offering a unique shopping and discovery experience for select wines from around the world. With an elegant and user-friendly interface, the app allows users to explore a wide selection of wines.",
-      imgurl: "https://i.ibb.co/sgK1GS5/Winery-Project.png",
-      target: "_blank",
-      urlgithub: "https://github.com/SystemGDS/wineryFront",
-      urldeploy: "https://wineryhenry.vercel.app/",
-      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize",
-    },
-    {
       name: "Portfolio",
       description:
         "An interactive Single Page Application to showcase my experience and projects in a clear and effective manner. This portfolio allows visitors to easily explore my projects, skills, and achievements. With an intuitive design and smooth navigation.",
@@ -112,6 +93,25 @@ let resumeData = {
       urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
       urldeploy: "https://github.com/tedelcopp/Portfolio",
       stack: " JavaScript, React.JS, BootStrap, CSS",
+    },
+    {
+      name: "Winery App",
+      description:
+        "An E-Commerce platform dedicated to wine enthusiasts, offering a unique shopping and discovery experience for select wines from around the world. With an elegant and user-friendly interface, the app allows users to explore a wide selection of wines.",
+      imgurl: "https://i.ibb.co/sgK1GS5/Winery-Project.png",
+      target: "_blank",
+      urlgithub: "https://github.com/SystemGDS/wineryFront",
+      urldeploy: "https://wineryhenry.vercel.app/",
+      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize",
+    },
+    {
+      name: "Dog´s Finder App",
+      description:
+        "Single Page Application that displays information about all countries brought through an external API. The app is capable of paginating the results, sort them alphabetically, as well as by race, weight, and size.",
+      imgurl: require("./components/Images/DogsFinderApp.png"),
+      urlgithub: "https://github.com/tedelcopp/DogsFinder---App",
+      urldeploy: "",
+      stack: " ReactJS, JavaScript, SAAS, Redux, Node & Sequelize.",
     },
   ],
 };
