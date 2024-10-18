@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { PiCoffeeFill } from "react-icons/pi";
 import emailjs from "emailjs-com";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -21,18 +20,22 @@ export default class ContactUs extends Component {
   sendEmail = async (e) => {
     e.preventDefault();
 
-    const nameError = !this.state.name ? "Please enter your name." : "";
-    const emailError = !this.state.email ? "Please enter your email." : "";
+    const nameError = !this.state.name ? "Por favor, ingresa tu nombre." : "";
+    const emailError = !this.state.email
+      ? "Por favor, ingresa tu correo electrónico."
+      : "";
     const messageError = !this.state.message
-      ? "Please enter your message."
+      ? "Por favor, ingresa tu mensaje."
       : "";
 
     if (nameError || emailError || messageError) {
-      return toast.error("Please fill in all the fields.");
+      return toast.error("Por favor, completa todos los campos.");
     }
 
     if (!/\S+@\S+\.\S+/.test(this.state.email)) {
-      return toast.error("Please enter a valid email address.");
+      return toast.error(
+        "Por favor, introduce una dirección de correo electrónico válida."
+      );
     }
 
     const emailData = {
@@ -49,7 +52,7 @@ export default class ContactUs extends Component {
         "THDtUsAxnateC4RGm"
       );
 
-      toast.success("Your email was sent successfully!");
+      toast.success("Tu correo fue enviado con éxito!");
 
       this.setState({
         name: "",
@@ -57,8 +60,10 @@ export default class ContactUs extends Component {
         message: "",
       });
     } catch (error) {
-      console.error("Error sending your email:", error);
-      toast.error("There was an error sending the email. Please try again!.");
+      console.error("Error al enviar tu correo!", error);
+      toast.error(
+        "Hubo un error al enviar el correo. Por favor, inténtalo de nuevo!."
+      );
     }
   };
 
@@ -77,8 +82,7 @@ export default class ContactUs extends Component {
                   textTransform: "uppercase",
                 }}
               >
-                Take a coffee, let's talk!{" "}
-                <PiCoffeeFill className="pi-coffee-icon" />
+                Contacto{" "}
               </p>
             </div>
           </div>
@@ -109,7 +113,7 @@ export default class ContactUs extends Component {
                   <textarea
                     name="message"
                     className="form-control custom-input-width"
-                    placeholder="Hi!, I want to work with you.."
+                    placeholder="Hola Tomás,hablemos!"
                     rows="5"
                     value={this.state.message}
                     onChange={this.handleInputChange}
@@ -118,7 +122,7 @@ export default class ContactUs extends Component {
 
                 <div className="text-center">
                   <button type="submit" className="btn btn-primary send-button">
-                    Send
+                    Enviar
                   </button>
                 </div>
               </form>

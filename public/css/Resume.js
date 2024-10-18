@@ -61,7 +61,7 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="three columns header-col">
             <h1>
               <span>Skills</span>
@@ -87,7 +87,7 @@ export default class Resume extends Component {
               <div className="skills__skill">Nexssst.js</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }

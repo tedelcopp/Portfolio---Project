@@ -7,7 +7,7 @@ export default class Resume extends Component {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Education</span>
+              <span>Educación</span>
             </h1>
           </div>
 
@@ -35,7 +35,7 @@ export default class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Work</span>
+              <span>Experiencia</span>
             </h1>
           </div>
 
@@ -61,10 +61,10 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>Habilidades</span>
             </h1>
           </div>
           <div className="nine columns main-col">
@@ -88,7 +88,7 @@ export default class Resume extends Component {
               <div className="skills__skill">Next.js</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }

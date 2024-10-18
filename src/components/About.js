@@ -15,7 +15,7 @@ export default class About extends Component {
         <div className="row">
           <div className="eleven columns main-col centered">
             <div className="about-me">
-              <h2>ABOUT ME</h2>
+              <h2>SOBRE MÍ</h2>
               <div className="profile-pic-container">
                 <img
                   className="profile-pic"
@@ -24,7 +24,7 @@ export default class About extends Component {
                 />
               </div>
               <p>
-                Hello!<span className="wave">👋</span>
+                Hola!<span className="wave">👋</span>
                 {resumeData.aboutme1}{" "}
               </p>
               <p>{resumeData.aboutme2}</p>

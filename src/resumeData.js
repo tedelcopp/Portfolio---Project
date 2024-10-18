@@ -2,10 +2,8 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
-  linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
   roleDescription:
-    "A Software Developer based in Argentina, currently studying Software Development. I'm passionate about staying up to date with the latest technology trends and constantly improving my technical skills.",
+    "Desarrollador con base en Argentina, actualmente estudiando la Tecnicatura en Desarrollo de Software. Me encuentro en búsqueda de oportunidades donde pueda aplicar mis conocimientos. Proyectos que me permitan aprender y crecer profesionalmente en el área. Quiero ser parte de una comunidad donde el aprendizaje sea mutuo. Creo que al compartir experiencias y conocimientos, no solo mejoramos como profesionales, sino que también creamos un impacto positivo en nuestro entorno.",
   socialLinks: [
     {
       name: "linkedin",
@@ -29,28 +27,28 @@ let resumeData = {
     },
   ],
   aboutme1:
-    " I'm Tomás Edelcopp from Buenos Aires, Argentina. A passionate learner who enjoys creating things that live on the internet. I'm a Software Developer, with strong administrative, communication skills and good attention to details.",
+    " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura en Desarrollo de Software, donde continúo aprendiendo nuevas tecnologías y habilidades.",
   aboutme2:
-    "After completing my Full-Stack Web Development course, I got the opportunity to become Teacher Assistant for the newly joined students, there i used to help +30 students in clearing their doubts related to web development & guided them during their entire course. Currently, I'm pursuing a technical degree in software development. ",
+    "Además de mis estudios, continuo trabajando en diversos proyectos personales que me permiten aplicar lo aprendido y seguir fortaleciendo mi experiencia práctica en el desarrollo. Me siento cómodo trabajando con tecnologías mas orientadas hacia el FrontEnd, aunque tengo un buen manejo de base de datos. Siempre busco oportunidades para aprender sobre nuevos frameworks y herramientas. A medida que avanzo en mi carrera, mi objetivo es contribuir a proyectos innovadores y seguir creciendo como profesional en el área.",
   address: "📍 Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
       UniversityName: "IFTS Nº18",
-      specialization: "Senior Technician in Software Development",
-      MonthOfPassing: "March",
+      specialization: "Tecnicatura Superior en Desarrollo de Software",
+      MonthOfPassing: "Marzo",
       YearOfPassing: "2024",
     },
     {
       UniversityName: "Henry",
       specialization: "Full Stack Developer",
-      MonthOfPassing: "July",
+      MonthOfPassing: "Julio",
       YearOfPassing: "2023",
     },
     {
-      UniversityName: "UTN",
-      specialization: "Digital Marketing & Social Media",
-      MonthOfPassing: "November",
+      UniversityName: "UTN.BA",
+      specialization: "Marketing Digital  & Social Media",
+      MonthOfPassing: "Noviembre",
       YearOfPassing: "2020",
     },
   ],
@@ -58,60 +56,62 @@ let resumeData = {
     {
       CompanyName: "Henry",
       specialization: "Teaching Assistant",
-      MonthOfLeaving: "Jul",
+      MonthOfLeaving: "Julio",
       YearOfLeaving: "2023",
       Achievements:
-        "I coordinate a group of more than 20 students to achieve integration into the study group, assist in solving exercises and promote group collaboration, and guide students in the first steps of the course.",
-    },
-    {
-      CompanyName: "Faena Buenos Aires",
-      specialization: "Supervisor in Special Events",
-      MonthOfLeaving: "Aug",
-      YearOfLeaving: "2021",
-      Achievements:
-        "I successfully led and directed rotating teams in a wide variety of social and corporate events, ensuring the achievement of specific objectives and respecting the required quality standard. Additionally, I demonstrated effective skills in communication, conflict resolution, employee training and development, which contributed to the success in the planning and execution of the events. I worked collaboratively with other supervisors and managers to achieve short, medium and long-term company goals, ensuring a productive and motivating work environment. During my performance, I remained committed to the pursuit of excellence in work and high quality standards within the area.",
+        "Coordine a un grupo de más de 20 estudiantes para facilitar su integración con el material de estudio, asistiendo en la resolución de ejercicios, promoviendo la colaboración grupal y guiando a los estudiantes en sus primeros pasos hasta la finalización del curso.",
     },
   ],
 
   portfolio: [
     {
-      name: "Portfolio",
+      name: "MeedApp",
       description:
-        "An interactive Single Page Application to showcase my experience and projects in a clear and effective manner. This portfolio allows visitors to easily explore my projects, skills, and achievements. With an intuitive design and smooth navigation.",
-      imgurl:
-        "https://i.ibb.co/MBF250q/Captura-de-pantalla-2023-10-17-152839.png",
-      urlgithub: "https://github.com/tedelcopp/Portfolio",
-      urldeploy: "https://portfolio-te.vercel.app/",
-      stack: " JavaScript, ReactJS, CSS, HTML",
+        "Realice un dashboard médico que integra diversas funcionalidades diseñadas para facilitar el trabajo del profesional de la salud. Este sistema permite una gestión eficiente de la información de los pacientes, programar citas, y generar reportes de manera sencilla. Utilizando tecnologías como Next.js, TypeScript y Tailwind CSS. Una interfaz moderna pensada en la experiencia del usuario, asegurando un flujo de trabajo ágil y efectivo.",
+      imgurl: require("./images/meedApp.png"),
+      target: "_blank",
+      urlgithub: "https://github.com/tedelcopp/meedapp",
+      urldeploy: "https://meedapp.vercel.app/",
+      stack: " NextJS, TypeScript, Tailwind.",
+    },
+    {
+      name: "Darwin Studio Code",
+      description:
+        "Desarrolle una Landing Page en HTML para una empresa de Servicios Web, con el objetivo de afianzar mis conocimientos en esta tecnología. Este proyecto se centra en ofrecer una experiencia de usuario intuitiva y agradable. Tiene un diseño moderno, con una paleta de colores atractiva y una estructura de navegación sencilla, lo que facilita a los visitantes encontrar la información que buscan de manera rápida y eficiente. Además, incluye botones de acción que facilitan la interacción del usuario.",
+      imgurl: require("./images/darwinStudioCode.png"),
+      target: "_blank",
+      urlgithub: "https://github.com/tedelcopp/DarwinStudioCode",
+      urldeploy: "https://darwinstudiocode.vercel.app/",
+      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize.",
     },
     {
       name: "Patch & Me",
       description:
-        "An e-Commerce platform dedicated to patch enthusiasts, offering a unique shopping and discovery experience for custom patches for garments from around the world. With a modern and user-friendly interface, the app allows users to explore a wide selection of patches.",
-      imgurl: "https://i.ibb.co/BZdzpM5/Sin-t-tulo.png",
+        "E-commerce dedicado a los entusiastas de los parches, ofrece una experiencia única de compra y descubrimiento de parches personalizados para prendas. Con una interfaz moderna y fácil de usar, la aplicación permite a los usuarios explorar una amplia selección de parches.",
+      imgurl: require("./images/patchMe.png"),
       target: "_blank",
       urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
-      urldeploy: "https://github.com/tedelcopp/Portfolio",
-      stack: " JavaScript, React.JS, BootStrap, CSS",
+      urldeploy: "https://patch-me-front.vercel.app/",
+      stack: " JavaScript, React.JS, BootStrap, CSS.",
     },
     {
       name: "Winery App",
       description:
-        "An E-Commerce platform dedicated to wine enthusiasts, offering a unique shopping and discovery experience for select wines from around the world. With an elegant and user-friendly interface, the app allows users to explore a wide selection of wines.",
-      imgurl: "https://i.ibb.co/sgK1GS5/Winery-Project.png",
+        "E-commerce dedicado a los entusiastas del vino, que ofrece una experiencia única para descubrir y adquirir vinos selectos de todo el mundo. Con una interfaz elegante y fácil de usar, la aplicación permite a los usuarios explorar una amplia y variada selección de vinos, facilitando su búsqueda y compra de manera intuitiva.",
+      imgurl: require("./images/wineryApp.png"),
       target: "_blank",
       urlgithub: "https://github.com/SystemGDS/wineryFront",
       urldeploy: "https://wineryhenry.vercel.app/",
-      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize",
+      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node, Sequelize.",
     },
     {
       name: "Dog´s Finder App",
       description:
-        "Single Page Application that displays information about all countries brought through an external API. The app is capable of paginating the results, sort them alphabetically, as well as by race, weight, and size.",
-      imgurl: require("./components/Images/DogsFinderApp.png"),
+        "Single Page Aplication que muestra información sobre todas los razas de perro, obtenida a través de una API externa. La aplicación es capaz de paginar los resultados, ordenarlos alfabéticamente, así como por raza, peso y tamaño. Tambien da la opcion de crear tu propia raza con cualidades elegidas.",
+      imgurl: require("./images/dogsFinderApp.png"),
       urlgithub: "https://github.com/tedelcopp/DogsFinder---App",
       urldeploy: "",
-      stack: " ReactJS, JavaScript, SAAS, Redux, Node & Sequelize.",
+      stack: " ReactJS, JavaScript, SAAS, Redux, Node, Sequelize.",
     },
   ],
 };

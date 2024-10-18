@@ -34,7 +34,7 @@ let resumeData = {
   website: "tomas.edelcopp@gmail.com",
   education: [
     {
-      UniversityName: "UTN",
+      UniversityName: "UTN.BA",
       specialization: "Digital Marketing & Social Media",
       MonthOfPassing: "Nov",
       YearOfPassing: "2020",
@@ -48,34 +48,25 @@ let resumeData = {
         "Intensive bootcamp for Full Stack Developers with over 800 hours of coding. Technologies learned: Javascript, React, Redux, HTML5, CSS, Node, Express, PostgreSQL and Sequelize",
     },
   ],
-  work: [
-    {
-      CompanyName: "The Green Darwins",
-      specialization: "CEO",
-      MonthOfLeaving: "Mar",
-      YearOfLeaving: "2023",
-      Achievements:
-        "My passion for gardening and my entrepreneurial spirit motivated me to create my own business to finance my university studies. I learned how to program and developed an e-commerce platform for plants and gardening supplies. In my online store, I offer a wide variety of products to meet the needs of any gardening enthusiast. From beautiful plants to high-quality gardening tools, my business has everything you need to create and maintain a beautiful garden at home.",
-    },
-    {
-      CompanyName: "Faena Buenos Aires",
-      specialization: "Supervisor in Special Events",
-      MonthOfLeaving: "Aug",
-      YearOfLeaving: "2021",
-      Achievements:
-        "I successfully led and directed rotating teams in a wide variety of social and corporate events, ensuring the achievement of specific objectives and respecting the required quality standard. Additionally, I demonstrated effective skills in communication, conflict resolution, employee training and development, which contributed to the success in the planning and execution of the events. I worked collaboratively with other supervisors and managers to achieve short, medium and long-term company goals, ensuring a productive and motivating work environment. During my performance, I remained committed to the pursuit of excellence in work and high quality standards within the area.",
-    },
-  ],
+  // work: [
+  //   {
+  //     CompanyName: "The Green Darwins",
+  //     specialization: "CEO",
+  //     MonthOfLeaving: "Mar",
+  //     YearOfLeaving: "2023",
+  //     Achievements:
+  //       "My passion for gardening and my entrepreneurial spirit motivated me to create my own business to finance my university studies. I learned how to program and developed an e-commerce platform for plants and gardening supplies. In my online store, I offer a wide variety of products to meet the needs of any gardening enthusiast. From beautiful plants to high-quality gardening tools, my business has everything you need to create and maintain a beautiful garden at home.",
+  //   },
+  //   {
+  //     CompanyName: "Faena Buenos Aires",
+  //     specialization: "Supervisor in Special Events",
+  //     MonthOfLeaving: "Aug",
+  //     Achievements:
+  //       "I successfully led and directed rotating teams in a wide variety of social and corporate events, ensuring the achievement of specific objectives and respecting the required quality standard. Additionally, I demonstrated effective skills in communication, conflict resolution, employee training and development, which contributed to the success in the planning and execution of the events. I worked collaboratively with other supervisors and managers to achieve short, medium and long-term company goals, ensuring a productive and motivating work environment. During my performance, I remained committed to the pursuit of excellence in work and high quality standards within the area.",
+  //   },
+  // ],
 
   portfolio: [
-    {
-      name: "The Green Darwin",
-      description:
-        "A virtual store of a nursery that offers the sale of plants and garden care items.",
-      imgurl: "https://i.ibb.co/bFthRw5/The-Green-Darwin-Project.png",
-      url: "https://the-green-darwin-front.vercel.app/",
-      target: "_blank",
-    },
     {
       name: "Portfolio",
       description:

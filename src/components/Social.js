@@ -9,7 +9,7 @@ export default class Social extends Component {
     return (
       <div className="contact-details-container">
         <div className="contact-details">
-          <h2>Contact Details</h2>
+          <h2>Contacto</h2>
           <div className="social-buttons">
             <button className="social-button linkedin-link">
               <a
@@ -42,7 +42,7 @@ export default class Social extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Check out my resume!
+                Resumen Profesional
               </a>
             </button>
           </div>
