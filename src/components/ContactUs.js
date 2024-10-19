@@ -49,7 +49,7 @@ export default class ContactUs extends Component {
         "service_378vtrg",
         "template_odpoh9i",
         emailData,
-        "THDtUsAxnateC4RGm"
+        "LbUJ2NNvj98WobDek"
       );
 
       toast.success("Tu correo fue enviado con éxito!");
@@ -60,7 +60,7 @@ export default class ContactUs extends Component {
         message: "",
       });
     } catch (error) {
-      console.error("Error al enviar tu correo!", error);
+      console.error("Error al enviar tu correo!", error.text || error);
       toast.error(
         "Hubo un error al enviar el correo. Por favor, inténtalo de nuevo!."
       );

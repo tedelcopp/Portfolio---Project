@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Social from "./components/Social";
 import resumeData from "./resumeData";
 import Skills from "./components/Skills";
+
 class App extends Component {
   render() {
     return (
