@@ -23,6 +23,11 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
+                <a className="smoothscroll" href="#skills">
+                  Tecnologías {/* Nueva opción en el menú */}
+                </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#portfolio">
                   Proyectos
                 </a>

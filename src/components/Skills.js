@@ -4,7 +4,7 @@ import { FaDatabase, FaReact } from "react-icons/fa";
 export default class Skills extends Component {
   render() {
     return (
-      <section className="tech-section">
+      <section id="skills" className="tech-section">
         <h1>Tecnologías</h1>
         <p>
           Trabajo con una variedad de tecnologías en el mundo del Desarrollo
