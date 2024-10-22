@@ -60,35 +60,6 @@ export default class Resume extends Component {
               })}
           </div>
         </div>
-
-        {/* <div className="row">
-          <div className="three columns header-col">
-            <h1>
-              <span>Habilidades</span>
-            </h1>
-          </div>
-          <div className="nine columns main-col">
-            <div className="skills">
-              <div className="skills__skill">HTML5</div>
-              <div className="skills__skill">CSS</div>
-              <div className="skills__skill">JavaScript</div>
-              <div className="skills__skill">React</div>
-              <div className="skills__skill">Redux</div>
-              <div className="skills__skill">Node.js</div>
-              <div className="skills__skill">Express</div>
-              <div className="skills__skill">PostgreSQL</div>
-              <div className="skills__skill">MongoDB</div>
-              <div className="skills__skill">Sequelize</div>
-              <div className="skills__skill">Bootstrap</div>
-              <div className="skills__skill">MySQL</div>
-              <div className="skills__skill">Vue.js</div>
-              <div className="skills__skill">MUI</div>
-              <div className="skills__skill">Vite</div>
-              <div className="skills__skill">Python</div>
-              <div className="skills__skill">Next.js</div>
-            </div>
-          </div>
-        </div> */}
       </section>
     );
   }
