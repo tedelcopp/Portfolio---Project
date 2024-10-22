@@ -113,7 +113,7 @@ export default class ContactUs extends Component {
                   <textarea
                     name="message"
                     className="form-control custom-input-width"
-                    placeholder="Hola Tomás,hablemos!"
+                    placeholder="Hola Tomás, hablemos!"
                     rows="5"
                     value={this.state.message}
                     onChange={this.handleInputChange}
