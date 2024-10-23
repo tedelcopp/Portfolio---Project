@@ -44,7 +44,7 @@ body {
 header {
    position: relative;
    height: 900px;
-   min-height: 550px;
+   min-height: 650px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
@@ -52,7 +52,6 @@ header {
    text-align: center;
    overflow: hidden;
    user-select: none;
-   padding-bottom: 650px; /* Agrega más espacio hacia abajo */
 }
 
 /* Vertically Center Banner Section */
@@ -86,7 +85,7 @@ header .banner-text h1 {
    line-height: 1.9em;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 30px auto 10px auto; /* Ajusta los márgenes superior e inferior */
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -95,7 +94,7 @@ header .banner-text h3 {
    font-size: 20px;
    line-height: 2.0em;
    color: #A8A8A8;
-   margin: 0 auto;
+   margin: 10px auto; /* Ajusta los márgenes superior e inferior */
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -111,14 +110,11 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* Start Header Responsive Version */
+/* Start Header Screens Responsive*/
 @media (max-width: 768px) {
-   header {
-      padding-bottom: 1050px; 
-   }
 
    header .banner-text h1 {
-      font-size: 85px !important; 
+      font-size: 65px !important; 
       text-align: center;
       justify-content: center;
       align-items: center;
@@ -126,15 +122,16 @@ header .banner-text hr {
    }
 
    header .banner-text h3 {
-      font-size: 21px !important; 
+      font-size: 19px !important; 
+      margin-top: 60px; 
    }
 }
-/* End Header Responsive Version */
+/* End Header Screens Responsive*/
 
 /* Scrolldown Arcontact-details */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   bottom: 10px;
    left: 48.5%;
    margin-left: -29px;
    color: #fff;
