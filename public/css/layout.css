@@ -112,6 +112,10 @@ header .banner-text hr {
 
 /* Start Header Screens Responsive*/
 @media (max-width: 768px) {
+      header {
+         height: 400px !important;
+         min-height: 850px; 
+      }
 
    header .banner-text h1 {
       font-size: 65px !important; 
