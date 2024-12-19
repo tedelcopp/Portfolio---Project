@@ -29,7 +29,7 @@ let resumeData = {
   aboutme1:
     " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura en Desarrollo de Software, donde continúo aprendiendo nuevas tecnologías y habilidades.",
   aboutme2:
-    "Además de mis estudios, continuo trabajando en diversos proyectos personales que me permiten aplicar lo aprendido y seguir fortaleciendo mi experiencia práctica en el desarrollo. Me siento cómodo trabajando con tecnologías mas orientadas hacia el FrontEnd, aunque tengo un buen manejo de base de datos. Siempre busco oportunidades para aprender sobre nuevos frameworks y herramientas. A medida que avanzo en mi carrera, mi objetivo es contribuir a proyectos innovadores y seguir creciendo como profesional en el área.",
+    "Además de mis estudios, continuo trabajando en diversos proyectos personales que me permiten aplicar lo aprendido y seguir fortaleciendo mi experiencia práctica en el desarrollo. Algunos de estos proyectos incluyen Finanzas Ya! y Rugel Fitness, que han sido clave para profundizar en mi incursion en la modalidad freelance. Me siento cómodo trabajando con tecnologías mas orientadas hacia el FrontEnd, aunque tengo un buen manejo de base de datos. Siempre busco oportunidades para aprender sobre nuevos frameworks y herramientas. A medida que avanzo en mi carrera, mi objetivo es contribuir a proyectos innovadores y seguir creciendo como profesional en el área.",
   address: "📍 Buenos Aires, Argentina.",
   website: "tomas.edelcopp@gmail.com",
   education: [
@@ -61,18 +61,26 @@ let resumeData = {
       Achievements:
         "Coordine a un grupo de más de 20 estudiantes para facilitar su integración con el material de estudio, asistiendo en la resolución de ejercicios, promoviendo la colaboración grupal y guiando a los estudiantes en sus primeros pasos hasta la finalización del curso.",
     },
+    {
+      CompanyName: "Frelancer",
+      specialization: "Desarrollador",
+      MonthOfLeaving: "Nov",
+      YearOfLeaving: "2024",
+      Achievements:
+        "Actualmente, estoy trabajando como freelancer, donde me encargo de comprender las necesidades de cada cliente a través de reuniones y comunicación constante. Juntos definimos objetivos claros en función de los plazos establecidos, y siempre me aseguro de mantenerlos al tanto con avances periódicos. Estoy disponible para cualquier consulta, adaptándome al equipo de trabajo y buscando siempre la satisfacción del cliente. En mis últimos proyectos, utilicé tecnologías como Next.js, TypeScript, React.js y WordPress, enfocándome en crear productos funcionales y alineados con sus expectativas.",
+    },
   ],
 
   portfolio: [
     {
-      name: "MeedApp",
+      name: "Rugel Fitness",
       description:
-        "Realice un dashboard médico que integra diversas funcionalidades diseñadas para facilitar el trabajo del profesional de la salud. Este sistema permite una gestión eficiente de la información de los pacientes, programar citas, y generar reportes de manera sencilla. Utilizando tecnologías como Next.js, TypeScript y Tailwind CSS. Una interfaz moderna pensada en la experiencia del usuario, asegurando un flujo de trabajo ágil y efectivo.",
+        "Me encuentro desarrollando una aplicacion para una personal trainer que integra herramientas para optimizar la gestion de sus servicios y mejorar la experiencia de sus clientes. Desde la app, los usuarios pueden consultar los valores de los planes, acceder a información del profesional, ver imágenes y videos de entrenamientos e interactuar facilmente a traves de botones de acción. Utilizando Next.js, TypeScript y Tailwind CSS.",
       imgurl: require("./images/meedApp.png"),
       target: "_blank",
-      urlgithub: "https://github.com/tedelcopp/meedapp",
-      urldeploy: "https://meedapp.vercel.app/",
-      stack: " NextJS, TypeScript, Tailwind.",
+      urlgithub: "https://github.com/tedelcopp/lrugelfitness",
+      urldeploy: "https://rugelfitness.vercel.app/",
+      stack: " NextJS, TypeScript, Tailwind CSS",
     },
     {
       name: "Darwin Studio Code",
@@ -82,7 +90,17 @@ let resumeData = {
       target: "_blank",
       urlgithub: "https://github.com/tedelcopp/DarwinStudioCode",
       urldeploy: "https://darwinstudiocode.vercel.app/",
-      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node & Sequelize.",
+      stack: "HTML, CSS",
+    },
+    {
+      name: "Finanzas Ya!",
+      description:
+        "Realicé una optimización para el equipo de Finanzas Ya! como parte de un proyecto freelance en WordPress. Mi trabajo se centró en actualizar todos los componentes del sitio, asegurando su correcto funcionamiento y compatibilidad con las últimas versiones. Además, rediseñé varias secciones clave para darles un aspecto más sofisticado y moderno, mejorando tanto la estética como la experiencia del usuario. Estas mejoras lograron que el sitio transmita una imagen más profesional y acorde a las necesidades del cliente.",
+      imgurl: require("./images/finanzasYa.png"),
+      target: "_blank",
+      urlgithub: "_blank",
+      urldeploy: "https://finanzasya.com.ar/",
+      stack: "WordPress",
     },
     {
       name: "Patch & Me",
@@ -93,25 +111,6 @@ let resumeData = {
       urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
       urldeploy: "https://patch-me-front.vercel.app/",
       stack: " JavaScript, React.JS, BootStrap, CSS.",
-    },
-    {
-      name: "Winery App",
-      description:
-        "E-commerce dedicado a los entusiastas del vino, que ofrece una experiencia única para descubrir y adquirir vinos selectos de todo el mundo. Con una interfaz elegante y fácil de usar, la aplicación permite a los usuarios explorar una amplia y variada selección de vinos, facilitando su búsqueda y compra de manera intuitiva.",
-      imgurl: require("./images/wineryApp.png"),
-      target: "_blank",
-      urlgithub: "https://github.com/SystemGDS/wineryFront",
-      urldeploy: "https://wineryhenry.vercel.app/",
-      stack: " JavaScript, ReactJS, Vite, Redux, Swiper, Node, Sequelize.",
-    },
-    {
-      name: "Dog´s Finder App",
-      description:
-        "Single Page Aplication que muestra información sobre todas los razas de perro, obtenida a través de una API externa. La aplicación es capaz de paginar los resultados, ordenarlos alfabéticamente, así como por raza, peso y tamaño. Tambien da la opcion de crear tu propia raza con cualidades elegidas.",
-      imgurl: require("./images/dogsFinderApp.png"),
-      urlgithub: "https://github.com/tedelcopp/DogsFinder---App",
-      urldeploy: "",
-      stack: " ReactJS, JavaScript, SAAS, Redux, Node, Sequelize.",
     },
   ],
 };
