@@ -662,8 +662,9 @@ button.jumping {
  
  .portfolio-card-container {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 20px;
+   grid-template-columns: repeat(auto-fit, minmax(450px, 5fr)); 
+   gap: 40px;
+   padding: 0 20px; 
  }
  
  .portfolio-card {
@@ -755,7 +756,16 @@ button.jumping {
    #portfolio {
      padding-top: 65px;
    }
- }
+      .portfolio-card-img {
+        max-height: 250px; /* Reducir la altura máxima en pantallas más pequeñas */
+      }
+   }
+
+    @media (max-width: 480px) {
+      .portfolio-card-img {
+        max-height: 200px; /* Reducir aún más en pantallas muy pequeñas */
+      }
+}
 /* Portfolio */
 #portfolio-wrapper .columns {
    margin-bottom: 36px;
