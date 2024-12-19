@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
   roleDescription:
-    "Desarrollador con base en Argentina, actualmente estudiando la Tecnicatura en Desarrollo de Software. Me encuentro en búsqueda de oportunidades donde pueda aplicar mis conocimientos. Proyectos que me permitan aprender y crecer profesionalmente en el área. Quiero ser parte de una comunidad donde el aprendizaje sea mutuo. Creo que, al compartir experiencias y conocimientos, no solo mejoramos como profesionales, sino que también creamos un impacto positivo en nuestro entorno.",
+    "Desarrollador con base en Argentina, actualmente estudiando la Tecnicatura Superior en Desarrollo de Software. Me encuentro en búsqueda de oportunidades donde pueda aplicar mis conocimientos. Proyectos que me permitan aprender y crecer profesionalmente en el área. Quiero ser parte de una comunidad donde el aprendizaje sea mutuo. Creo que, al compartir experiencias y conocimientos, no solo mejoramos como profesionales, sino que también creamos un impacto positivo en nuestro entorno.",
   socialLinks: [
     {
       name: "linkedin",
@@ -27,7 +27,7 @@ let resumeData = {
     },
   ],
   aboutme1:
-    " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura en Desarrollo de Software, donde continúo aprendiendo nuevas tecnologías y habilidades.",
+    " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura Superior en Desarrollo de Software, donde continúo aprendiendo nuevas tecnologías y habilidades.",
   aboutme2:
     "Además de mis estudios, continuo trabajando en diversos proyectos personales que me permiten aplicar lo aprendido y seguir fortaleciendo mi experiencia práctica en el desarrollo. Algunos de estos proyectos incluyen Finanzas Ya! y Rugel Fitness, que han sido clave para profundizar en mi incursion en la modalidad freelance. Me siento cómodo trabajando con tecnologías mas orientadas hacia el FrontEnd, aunque tengo un buen manejo de base de datos. Siempre busco oportunidades para aprender sobre nuevos frameworks y herramientas. A medida que avanzo en mi carrera, mi objetivo es contribuir a proyectos innovadores y seguir creciendo como profesional en el área.",
   address: "📍 Buenos Aires, Argentina.",
@@ -67,7 +67,7 @@ let resumeData = {
       MonthOfLeaving: "Nov",
       YearOfLeaving: "2024",
       Achievements:
-        "Actualmente, estoy trabajando como freelancer, donde me encargo de comprender las necesidades de cada cliente a través de reuniones y comunicación constante. Juntos definimos objetivos claros en función de los plazos establecidos, y siempre me aseguro de mantenerlos al tanto con avances periódicos. Estoy disponible para cualquier consulta, adaptándome al equipo de trabajo y buscando siempre la satisfacción del cliente. En mis últimos proyectos, utilicé tecnologías como Next.js, TypeScript, React.js y WordPress, enfocándome en crear productos funcionales y alineados con sus expectativas.",
+        "Como freelancer, me especializo en transformar las ideas de mis clientes en soluciones digitales concretas. A través de reuniones y una comunicación fluida, identifico sus necesidades y establecemos objetivos claros con plazos definidos. Mantengo a los clientes al tanto del progreso con actualizaciones regulares y me aseguro de que los resultados sean funcionales y cumplan sus expectativas. En mis últimos proyectos, trabaje con tecnologías como Next.js, TypeScript, React.js, WordPress, y otras herramientas complementarias como Tailwind CSS, APIs REST, y bases de datos.",
     },
   ],
 

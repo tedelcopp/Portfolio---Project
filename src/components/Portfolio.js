@@ -29,35 +29,39 @@ export default class Portfolio extends Component {
                       <div className="portfolio-card-content">
                         <h2>{item.name}</h2>
                         <p>{item.description}</p>
-                        <p>
-                          • <u>Tecnologías:</u> {item.stack}
-                        </p>
-                        <div className="portfolio-button-container">
-                          <a
-                            href={item.urlgithub}
-                            className="portfolio-button"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <FaGithub />
-                          </a>
-                          {item.urldeploy ? (
+
+                        {/* Contenedor de tecnologías y botones */}
+                        <div className="portfolio-footer">
+                          <p>
+                            • <u>Tecnologías:</u> {item.stack}
+                          </p>
+                          <div className="portfolio-button-container">
                             <a
-                              href={item.urldeploy}
+                              href={item.urlgithub}
                               className="portfolio-button"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <GrDeploy />
+                              <FaGithub />
                             </a>
-                          ) : (
-                            <button
-                              className="portfolio-button blocked-button"
-                              disabled
-                            >
-                              <GrDeploy />
-                            </button>
-                          )}
+                            {item.urldeploy ? (
+                              <a
+                                href={item.urldeploy}
+                                className="portfolio-button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <GrDeploy />
+                              </a>
+                            ) : (
+                              <button
+                                className="portfolio-button blocked-button"
+                                disabled
+                              >
+                                <GrDeploy />
+                              </button>
+                            )}
+                          </div>
                         </div>
                       </div>
                     </section>
