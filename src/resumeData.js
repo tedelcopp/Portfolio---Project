@@ -22,7 +22,7 @@ let resumeData = {
     },
     {
       name: "curriculum vitae",
-      url: "https://drive.google.com/file/d/1mGsUtrjCUQedGes09X14H7AixURzNSxO/view?usp=sharing",
+      url: "https://drive.google.com/file/d/15N_Yc479O2hGw5PLo5I5zPcZ8UQWnQmf/view?usp=sharing",
       className: "fa fa-cloud-download",
     },
   ],
