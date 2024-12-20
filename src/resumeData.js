@@ -76,7 +76,7 @@ let resumeData = {
       name: "Rugel Fitness",
       description:
         "Me encuentro desarrollando una aplicacion para una personal trainer que integra herramientas para optimizar la gestion de sus servicios y mejorar la experiencia de sus clientes. Desde la app, los usuarios pueden consultar los valores de los planes, acceder a información del profesional, ver imágenes y videos de entrenamientos e interactuar facilmente a traves de botones de acción. Utilizando Next.js, TypeScript y Tailwind CSS.",
-      imgurl: require("./images/meedApp.png"),
+      imgurl: require("./images/rugelFitness.png"),
       target: "_blank",
       urlgithub: "https://github.com/tedelcopp/lrugelfitness",
       urldeploy: "https://rugelfitness.vercel.app/",
