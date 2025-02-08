@@ -30,7 +30,6 @@ export default class Portfolio extends Component {
                         <h2>{item.name}</h2>
                         <p>{item.description}</p>
 
-                        {/* Contenedor de tecnologías y botones */}
                         <div className="portfolio-footer">
                           <p>
                             • <u>Tecnologías:</u> {item.stack}
