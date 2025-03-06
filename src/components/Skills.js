@@ -18,8 +18,8 @@ export default class Skills extends Component {
             </div>
             <h3>Front-End</h3>
             <p>
-              Experiencia con HTML, CSS, React, React-Redux, NextJS, TypeScript
-              y Tailwind.
+              Experiencia con HTML, CSS, React, React-Redux, NextJS, NextAuth,
+              TypeScript y Tailwind.
             </p>
           </div>
 

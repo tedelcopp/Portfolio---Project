@@ -22,7 +22,7 @@ let resumeData = {
     },
     {
       name: "curriculum vitae",
-      url: "https://drive.google.com/file/d/1JXgH46Z05Z9sS5QfrT2JZ5dNRY__CeIq/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1YwBvU3EUqvyqGSJry6p_urEX7rul9szw/view?usp=sharing",
       className: "fa fa-cloud-download",
     },
   ],
@@ -73,45 +73,46 @@ let resumeData = {
 
   portfolio: [
     {
-      name: "Rugel Fitness",
+      name: "Medapp",
       description:
-        "Me encuentro desarrollando una aplicacion para una personal trainer que integra herramientas para optimizar la gestion de sus servicios y mejorar la experiencia de sus clientes. Desde la app, los usuarios pueden consultar los valores de los planes, acceder a información del profesional, ver imágenes y videos de entrenamientos e interactuar facilmente a traves de botones de acción. Utilizando Next.js, TypeScript y Tailwind CSS.",
-      imgurl: require("./images/rugelFitness.png"),
+        "Desarrollé Medapp, una aplicación para la gestión de citas médicas y acceso a información de salud, con el objetivo de optimizar la experiencia del usuario y garantizar un alto rendimiento. Utilicé Next.js para el frontend, junto con Tailwind CSS para una estilización eficiente, React Hot Toast para notificaciones dinámicas y React Lucide para iconografía clara y funcional. La aplicación cuenta con una navegación optimizada mediante componentes reutilizables y estrategias de carga inteligente. En el backend, implementé una arquitectura de tres capas con Node.js y Express, estructurando controladores, servicios y acceso a datos para un código modular y escalable. Además, gestioné la base de datos con DBeaver, optimizando consultas y diseñando endpoints eficientes para mejorar la comunicación entre el servidor y el cliente.",
+      imgurl: require("./images/Medapp - Project.png"),
       target: "_blank",
-      urlgithub: "https://github.com/tedelcopp/lrugelfitness",
-      urldeploy: "https://rugelfitness.vercel.app/",
-      stack: " NextJS, TypeScript, Tailwind CSS",
-    },
-    {
-      name: "Darwin Studio Code",
-      description:
-        "Desarrolle una Landing Page en HTML para una empresa de Servicios Web, con el objetivo de afianzar mis conocimientos en esta tecnología. Este proyecto se centra en ofrecer una experiencia de usuario intuitiva y agradable. Tiene un diseño moderno, con una paleta de colores atractiva y una estructura de navegación sencilla, lo que facilita a los visitantes encontrar la información que buscan de manera rápida y eficiente. Además, incluye botones de acción que facilitan la interacción del usuario.",
-      imgurl: require("./images/darwinStudioCode.png"),
-      target: "_blank",
-      urlgithub: "https://github.com/tedelcopp/DarwinStudioCode",
-      urldeploy: "https://darwinstudiocode.vercel.app/",
-      stack: "HTML, CSS",
+      urlgithub: "https://github.com/tedelcopp/MedApp-FrontEnd---Project",
+      urldeploy: "https://themedapp.vercel.app/",
+      stack:
+        " NextJS | TypeScript | Tailwind CSS | React Hot Toast | React Lucide | Node.js | Express | Sequelize | DBeaver.",
     },
     {
       name: "Finanzas Ya!",
       description:
-        "Realicé una optimización para el equipo de Finanzas Ya! como parte de un proyecto freelance en WordPress. Mi trabajo se centró en actualizar todos los componentes del sitio, asegurando su correcto funcionamiento y compatibilidad con las últimas versiones. Además, rediseñé varias secciones clave para darles un aspecto más sofisticado y moderno, mejorando tanto la estética como la experiencia del usuario. Estas mejoras lograron que el sitio transmita una imagen más profesional y acorde a las necesidades del cliente.",
-      imgurl: require("./images/finanzasYa.png"),
+        "Realicé una optimización para el equipo de Finanzas Ya! como parte de un proyecto freelance en WordPress. Mi trabajo se centró principalmente en actualizar todos los componentes del sitio web, asegurando su correcto funcionamiento y compatibilidad con las últimas versiones de WordPress, plugins y tecnologías asociadas. Además, rediseñé varias secciones clave del sitio para darles un aspecto más sofisticado y moderno, mejorando tanto la estética como la experiencia del usuario. Estos cambios incluyeron una revisión de la estructura y el diseño de las páginas, buscando siempre la armonía entre funcionalidad y visualización. Las mejoras implementadas lograron que el sitio web transmitiera una imagen más profesional y acorde a las necesidades y expectativas del cliente, resultando en una mayor satisfacción del mismo.",
+      imgurl: require("./images/Finanzas Ya - Project.png"),
       target: "_blank",
       urlgithub: "_blank",
       urldeploy: "https://finanzasya.com.ar/",
       stack: "WordPress",
     },
     {
-      name: "Patch & Me",
+      name: "Darwin Studio Code",
       description:
-        "E-commerce dedicado a los entusiastas de los parches, ofrece una experiencia única de compra y descubrimiento de parches personalizados para prendas. Con una interfaz moderna y fácil de usar, la aplicación permite a los usuarios explorar una amplia selección de parches.",
-      imgurl: require("./images/patchMe.png"),
+        "Desarrollé una Landing Page para una empresa de servicios web utilizando Next.js, con el objetivo de afianzar mis conocimientos en esta tecnología y mejorar la experiencia de usuario. Este proyecto cuenta con un diseño moderno y una estructura de navegación sencilla, permitiendo a los visitantes encontrar la información de manera rápida y eficiente. Implementé Tailwind CSS para estilizar la interfaz, React Hot Toast para notificaciones y React Lucide para iconografía, logrando una experiencia visual atractiva e interactiva. Además, incorporé botones de acción estratégicos para optimizar la conversión y la interacción del usuario.",
+      imgurl: require("./images/Darwin Studio Code - Project.png"),
       target: "_blank",
-      urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
-      urldeploy: "https://patch-me-front.vercel.app/",
-      stack: " JavaScript, React.JS, BootStrap, CSS.",
+      urlgithub: "https://github.com/tedelcopp/Darwin-Studio-Code---Project",
+      urldeploy: "https://darwinstudiocode.vercel.app/",
+      stack: "Next.js | React | Tailwind CSS | React Hot Toast | React Lucide.",
     },
+    // {
+    //   name: "Patch & Me",
+    //   description:
+    //     "E-commerce dedicado a los entusiastas de los parches, ofrece una experiencia única de compra y descubrimiento de parches personalizados para prendas. Con una interfaz moderna y fácil de usar, la aplicación permite a los usuarios explorar una amplia selección de parches.",
+    //   imgurl: require("./images/PatchMe - Project.png"),
+    //   target: "_blank",
+    //   urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
+    //   urldeploy: "https://patch-me-front.vercel.app/",
+    //   stack: " JavaScript | React.JS | BootStrap | CSS.",
+    // },
   ],
 };
 
