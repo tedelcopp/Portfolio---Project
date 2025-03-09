@@ -1614,11 +1614,6 @@ footer .social-links li:first-child {
  
 /* Skills Screens Responsive  */
  @media (max-width: 768px) {
-.tech-section{
-   background: #161415 url(../images/blob-scene-haikei.svg) no-repeat top center;
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
-}
    .tech-card {
      width: 100%;
    }
