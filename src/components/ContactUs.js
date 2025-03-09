@@ -77,12 +77,16 @@ export default class ContactUs extends Component {
               <p
                 className="lead"
                 style={{
-                  color: "#fff",
-                  fontFamily: "sans-serif ",
+                  fontSize: "32px",
+                  lineHeight: "24px",
+                  fontFamily: "'Open Sans', sans-serif",
+                  fontWeight: "bold",
                   textTransform: "uppercase",
+                  letterSpacing: "1px",
+                  color: "#313131",
                 }}
               >
-                Contacto{" "}
+                Contacto
               </p>
             </div>
           </div>

@@ -85,7 +85,7 @@ header .banner-text h1 {
    line-height: 1.9em;
    color: #fff;
    letter-spacing: -2px;
-   margin: 30px auto 10px auto; /* Ajusta los márgenes superior e inferior */
+   margin: 30px auto 10px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -94,7 +94,7 @@ header .banner-text h3 {
    font-size: 20px;
    line-height: 2.0em;
    color: #A8A8A8;
-   margin: 10px auto; /* Ajusta los márgenes superior e inferior */
+   margin: 10px auto; 
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -257,7 +257,7 @@ ul#nav li.current a {
    color: #fff;
    text-align: center;
    margin-bottom: 22px;
-   border-bottom: 3.5px solid #11ABB0;
+   border-bottom: 3.5px solid #F06000;
    padding-bottom: 10px;
    display: inline-block;
 }
@@ -366,7 +366,7 @@ button.jumping {
       padding-bottom: 10px;
       margin-bottom: 22px;
       border-width: 100vh;
-      border-bottom: 3.5px solid #11ABB0;
+      border-bottom: 3.5px solid #F06000;
    }
 
    #about p {
@@ -415,7 +415,7 @@ button.jumping {
    color: whitesmoke;
    text-align: center;
    position: relative;
-   border-bottom: 4px solid #11ABB0;
+   border-bottom: 4px solid #F06000;
    padding-bottom: 10px;
 }
  
@@ -529,7 +529,7 @@ button.jumping {
 }
 
 #resume h1 span {
-   border-bottom: 4px solid #11ABB0;
+   border-bottom: 4px solid #F06000;
    padding-bottom: 10px;
 }
 
@@ -647,7 +647,7 @@ button.jumping {
    text-align: center;
    margin-bottom: 48px;
    color: #313131;
-   border-bottom: 4px solid #11ABB0;
+   border-bottom: 4px solid #F06000;
    padding-bottom: 10px;
    max-width: 209px;
    margin-left: auto;
@@ -697,7 +697,7 @@ button.jumping {
    font-size: 26px;
    margin-bottom: 10px;
    text-align: center;
-   border-bottom: 4px solid #11ABB0;
+   border-bottom: 4px solid #F06000;
  }
  
  .portfolio-card-content p {
@@ -748,7 +748,7 @@ button.jumping {
    }
  
    #portfolio h1 {
-     border-bottom: 4px solid #11ABB0;
+     border-bottom: 4px solid #F06000;
      max-width: 195px;
      font-size: 30px;
      line-height: 1.5;
@@ -758,13 +758,13 @@ button.jumping {
      padding-top: 65px;
    }
       .portfolio-card-img {
-        max-height: 250px; /* Reducir la altura máxima en pantallas más pequeñas */
+        max-height: 250px; 
       }
    }
 
     @media (max-width: 480px) {
       .portfolio-card-img {
-        max-height: 200px; /* Reducir aún más en pantallas muy pequeñas */
+        max-height: 200px; 
       }
 }
 /* Portfolio */
@@ -1165,8 +1165,9 @@ button.jumping {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: rgb(0,0,5);
-   background: linear-gradient(180deg, rgba(0,0,5,1) 46%, rgba(17,171,176,0.5550595238095238) 100%);
+   background: #161415 url(../images/blob-scene-haikei\ \(1\).svg) no-repeat top center;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
    padding-top: 96px;
    padding-bottom: 102px;
    user-select: none;
@@ -1174,8 +1175,8 @@ button.jumping {
 
 #contact p {
    margin-bottom: 35px;
-   color: #e5e5e5;
-   border-bottom: 5px solid #25ABB0;
+   color: #000000;
+   border-bottom: 5px solid #F06000;
    letter-spacing: 3px;
    padding-bottom: 10px;
    display: inline-block;
@@ -1539,10 +1540,13 @@ footer .social-links li:first-child {
    color: var(--secondary-color);
    text-align: center;
    font-family: var(--font-family);
+   background: #161415 url(../images/blob-scene-haikei.svg) no-repeat top center;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
  }
  
  .tech-section h1 {
-   border-bottom: 4px solid #11ABB0;
+   border-bottom: 4px solid #F06000;
    padding-bottom: 8px;
    max-width: 215px;
    font-size: 32px;
@@ -1554,7 +1558,7 @@ footer .social-links li:first-child {
  }
  
  .tech-section p {
-   font-size: 19px;
+   font-size: 21px;
    margin-bottom: 50px;
    margin-top: 30px; 
    color: var(--text-color);
@@ -1587,9 +1591,9 @@ footer .social-links li:first-child {
  .tech-card h3 {
    margin-bottom: 10px;
    color: var(--primary-color);
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    max-width: 195px;
-   font-size: 22px; 
+   font-size: 24px; 
    line-height: 1.5;
    margin: 0 auto;
    text-align: center;
@@ -1598,14 +1602,14 @@ footer .social-links li:first-child {
  }
  
  .tech-card p {
-   font-size: 19px; 
+   font-size: 21px; 
    color: var(--text-color);
  }
  
  .tech-icon {
    font-size: 6.5rem; 
    margin-bottom: 15px;
-   color: #F06000;
+   color: #11ABB0;
  }
  
 /* Skills Screens Responsive  */
@@ -1614,7 +1618,7 @@ footer .social-links li:first-child {
      width: 100%;
    }
    .tech-section h1 {
-      border-bottom: 3px solid #11ABB0;
+      border-bottom: 3px solid #F06000;
       max-width: 215px;
       font-size: 30px;
       line-height: 1.5;
