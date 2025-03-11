@@ -46,7 +46,7 @@ header {
    height: 900px;
    min-height: 700px;
    width: 100%;
-   background: #161415 url(../images/background.svg) no-repeat top center;
+   background: #161415 url(../images/layered-waves-haikei\ \(2\).svg) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
@@ -459,7 +459,7 @@ button.jumping {
 }
 
 .social-icon.github:hover {
-   background-color: #474747;
+   background-color: #000000;
    color: #fff;
    transform: translateY(-10px);
 }
