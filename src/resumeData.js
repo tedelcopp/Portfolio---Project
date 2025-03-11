@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
   roleDescription:
-    "Desarrollador con base en Argentina, actualmente estudiando la Tecnicatura Superior en Desarrollo de Software. Me encuentro en búsqueda de oportunidades donde pueda aplicar mis conocimientos. Proyectos que me permitan aprender y crecer profesionalmente en el área. Quiero ser parte de una comunidad donde el aprendizaje sea mutuo. Creo que, al compartir experiencias y conocimientos, no solo mejoramos como profesionales, sino que también creamos un impacto positivo en nuestro entorno.",
+    "Desarrollador con base en Argentina, actualmente cursando la Tecnicatura Superior en Desarrollo de Software. A lo largo de mi experiencia, trabaje en proyectos que no solo fortalecieron mis conocimientos técnicos, sino que también me permitieron mejorar mis habilidades blandas, aprender a comunicar ideas con claridad y generar confianza en el trabajo en equipo. Disfruto enfrentar nuevos desafíos, adaptarme a distintos entornos y continuar explorando nuevas tecnologías para seguir creciendo como profesional.",
   socialLinks: [
     {
       name: "linkedin",
