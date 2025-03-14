@@ -21,7 +21,8 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "resend": "^1.1.0",
-    "swiper": "^11.2.5"
+    "swiper": "^11.2.5",
+    "yocto-queue": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
