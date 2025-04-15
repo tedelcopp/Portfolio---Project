@@ -59,7 +59,7 @@ let resumeData = {
       MonthOfLeaving: "Abril",
       YearOfLeaving: "2025",
       Achievements:
-        "Trabajo en la configuración y optimización de un servidor en la nube para implementar Chatwoot, una plataforma de atención al cliente, como parte de la solución CRM para una empresa en México. Estas tareas abarcan la integración de APIs, la gestión de bases de datos con PostgreSQL, y la administración de servicios, garantizando que toda la infraestructura funcione de manera eficiente y escalable. Esta experiencia me esta permitiendo fortalecer mis habilidades en la gestión de infraestructuras en la nube, la integración de plataformas y el despliegue de soluciones en entornos reales, con un enfoque en la escalabilidad, eficiencia operativa y sostenibilidad a largo plazo.",
+        "Trabajo en la configuración y optimización de un servidor en la nube para implementar Chatwoot, como parte de la solución CRM para una empresa en México. Estas tareas abarcan la integración de APIs, la gestión de bases de datos con PostgreSQL, y la administración de servicios, garantizando que toda la infraestructura funcione de manera eficiente y escalable. Esta experiencia me esta permitiendo fortalecer mis habilidades en la gestión de infraestructuras en la nube, la integración de plataformas y el despliegue de soluciones en entornos reales, con un enfoque en la escalabilidad, eficiencia operativa y sostenibilidad a largo plazo.",
     },
     {
       CompanyName: "GAOTek Inc.",
