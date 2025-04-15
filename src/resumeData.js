@@ -54,20 +54,28 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Henry",
-      specialization: "Teaching Assistant",
-      MonthOfLeaving: "Julio",
-      YearOfLeaving: "2023",
+      CompanyName: "PPR Consultoria",
+      specialization: "Desarrollador Backend",
+      MonthOfLeaving: "Abril",
+      YearOfLeaving: "2025",
       Achievements:
-        "Coordine a un grupo de más de 20 estudiantes para facilitar su integración con el material de estudio, asistiendo en la resolución de ejercicios, promoviendo la colaboración grupal y guiando a los estudiantes en sus primeros pasos hasta la finalización del curso.",
+        "Trabajo en la configuración y optimización de un servidor en la nube para implementar Chatwoot, una plataforma de atención al cliente, como parte de la solución CRM para una empresa en México. Estas tareas abarcan la integración de APIs, la gestión de bases de datos con PostgreSQL, y la administración de servicios, garantizando que toda la infraestructura funcione de manera eficiente y escalable. Esta experiencia me esta permitiendo fortalecer mis habilidades en la gestión de infraestructuras en la nube, la integración de plataformas y el despliegue de soluciones en entornos reales, con un enfoque en la escalabilidad, eficiencia operativa y sostenibilidad a largo plazo.",
     },
     {
-      CompanyName: "Frelancer",
-      specialization: "Desarrollador",
-      MonthOfLeaving: "Nov",
+      CompanyName: "GAOTek Inc.",
+      specialization: "Web Developer",
+      MonthOfLeaving: "Marzo",
+      YearOfLeaving: "2025",
+      Achievements:
+        "Durante esta pasantía remota de tres meses, colaboré en el desarrollo y creación de sitios web utilizando WordPress y WooCommerce, trabajando sobre requerimientos definidos por la empresa. También participé en la carga y administración de productos para la base de datos del e-commerce, asegurando una presentación clara y organizada del catálogo. Mantuve una comunicación fluida con el equipo a través de tres reuniones semanales en inglés, donde compartía avances, recibía retroalimentación y coordinaba los siguientes pasos. Esta experiencia fortaleció mis habilidades en desarrollo web, gestión de contenido y trabajo colaborativo en un entorno profesional e internacional.",
+    },
+    {
+      CompanyName: "Frelance",
+      specialization: "Desarrollador Autonomo",
+      MonthOfLeaving: "Noviembre",
       YearOfLeaving: "2024",
       Achievements:
-        "Como freelancer, me especializo en transformar las ideas de mis clientes en soluciones digitales concretas. A través de reuniones y una comunicación fluida, identifico sus necesidades y establecemos objetivos claros con plazos definidos. Mantengo a los clientes al tanto del progreso con actualizaciones regulares y me aseguro de que los resultados sean funcionales y cumplan sus expectativas. En mis últimos proyectos, trabaje con tecnologías como Next.js, TypeScript, React.js, WordPress, y otras herramientas complementarias como Tailwind CSS, APIs REST, y bases de datos.",
+        "Me dedico a transformar ideas en soluciones digitales concretas, acompañando a cada cliente desde la concepción inicial hasta la entrega final del producto. A través de una comunicación fluida y reuniones periódicas, identifico necesidades reales, definimos objetivos claros y acordamos plazos alcanzables. Durante todo el proceso, mantengo al cliente informado con actualizaciones constantes, asegurando un resultado funcional, alineado con sus expectativas y listo para implementarse.",
     },
   ],
 
@@ -81,7 +89,7 @@ let resumeData = {
       urlgithub: "https://github.com/tedelcopp/MedApp-FrontEnd---Project",
       urldeploy: "https://themedapp.vercel.app/",
       stack:
-        " NextJS | TypeScript | Tailwind CSS | React Hot Toast | React Lucide | Node.js | Express | Sequelize | DBeaver.",
+        " NextJS | TypeScript | Tailwind CSS | MySQL | React Hot Toast | React Lucide | Node.js | Express | Sequelize | DBeaver.",
     },
     {
       name: "Finanzas Ya!",
