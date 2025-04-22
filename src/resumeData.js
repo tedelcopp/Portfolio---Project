@@ -27,7 +27,7 @@ let resumeData = {
     },
   ],
   aboutme1:
-    " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura Superior en Desarrollo de Software, donde continúo aprendiendo nuevas tecnologías y habilidades.",
+    " Mi nombre es Tomás Edelcopp. Nací en Buenos Aires, Argentina. Desde siempre sentí interés por la tecnología, lo que me llevó a decidir estudiar en el año 2022. Primero lo hice por mi cuenta y luego inicié un bootcamp intensivo que completé en el año 2023. Actualmente estoy estudiando una Tecnicatura Superior en Desarrollo de Software, con el objetivo de seguir ampliando mis conocimientos y consolidando mi perfil profesional",
   aboutme2:
     "Además de mis estudios, continuo trabajando en diversos proyectos personales que me permiten aplicar lo aprendido y seguir fortaleciendo mi experiencia práctica en el desarrollo. Algunos de estos proyectos incluyen Finanzas Ya!, MedApp y Darwin Studio Code, que han sido clave para profundizar en mi incursion en la modalidad freelance. Me siento cómodo trabajando con tecnologías mas orientadas hacia el FrontEnd, aunque tengo un buen manejo de base de datos. Siempre busco oportunidades para aprender sobre nuevos frameworks y herramientas. A medida que avanzo en mi carrera, mi objetivo es contribuir a proyectos innovadores y seguir creciendo como profesional en el área.",
   address: "📍 Buenos Aires, Argentina.",
@@ -59,7 +59,7 @@ let resumeData = {
       MonthOfLeaving: "Abril",
       YearOfLeaving: "2025",
       Achievements:
-        "Trabajo en la configuración y optimización de un servidor en la nube para implementar Chatwoot, como parte de la solución CRM para una empresa en México. Estas tareas abarcan la integración de APIs, la gestión de bases de datos con PostgreSQL, y la administración de servicios, garantizando que toda la infraestructura funcione de manera eficiente y escalable. Esta experiencia me esta permitiendo fortalecer mis habilidades en la gestión de infraestructuras en la nube, la integración de plataformas y el despliegue de soluciones en entornos reales, con un enfoque en la escalabilidad, eficiencia operativa y sostenibilidad a largo plazo.",
+        "Me desempeño en la actualización y mantenimiento de un servidor cloud existente como parte de la solución CRM de una empresa en México. Me encargo de la configuración del entorno con Docker y Docker Compose, definiendo servicios, redes y volúmenes personalizados para asegurar un despliegue reproducible y estable. También gestiono bases de datos PostgreSQL, trabajando con variables .env para entornos seguros. Además, implementé la integración de Chatwoot con la API externa Evolution v2, conectando directamente con la base de datos del sistema interno. Esto permite sincronizar información clave en tiempo real dentro de las conversaciones del CRM. Esta experiencia está fortaleciendo mis habilidades en la administración remota, la integración de sistemas y la operación eficiente de plataformas en la nube.",
     },
     {
       CompanyName: "GAOTek Inc.",
@@ -67,7 +67,7 @@ let resumeData = {
       MonthOfLeaving: "Marzo",
       YearOfLeaving: "2025",
       Achievements:
-        "Durante esta pasantía remota de tres meses, colaboré en el desarrollo y creación de sitios web utilizando WordPress y WooCommerce, trabajando sobre requerimientos definidos por la empresa. También participé en la carga y administración de productos para la base de datos del e-commerce, asegurando una presentación clara y organizada del catálogo. Mantuve una comunicación fluida con el equipo a través de tres reuniones semanales en inglés, donde compartía avances, recibía retroalimentación y coordinaba los siguientes pasos. Esta experiencia fortaleció mis habilidades en desarrollo web, gestión de contenido y trabajo colaborativo en un entorno profesional e internacional.",
+        "Durante esta pasantía, colaboré en el desarrollo y creación de sitios web utilizando WordPress y WooCommerce, trabajando sobre requerimientos definidos por la empresa. También participé en la carga y administración de productos para la base de datos del e-commerce, asegurando una presentación clara y organizada del catálogo. Mantuve una comunicación fluida con el equipo a través de tres reuniones semanales en inglés, donde compartía avances, recibía retroalimentación y coordinaba los siguientes pasos. Esta experiencia fortaleció mis habilidades en desarrollo web, gestión de contenido y trabajo colaborativo en un entorno profesional e internacional.",
     },
     {
       CompanyName: "Frelance",
@@ -75,7 +75,7 @@ let resumeData = {
       MonthOfLeaving: "Noviembre",
       YearOfLeaving: "2024",
       Achievements:
-        "Me dedico a transformar ideas en soluciones digitales concretas, acompañando a cada cliente desde la concepción inicial hasta la entrega final del producto. A través de una comunicación fluida y reuniones periódicas, identifico necesidades reales, definimos objetivos claros y acordamos plazos alcanzables. Durante todo el proceso, mantengo al cliente informado con actualizaciones constantes, asegurando un resultado funcional, alineado con sus expectativas y listo para implementarse.",
+        "Transformo ideas en soluciones digitales concretas, acompañando a cada cliente desde la concepción inicial hasta la entrega final del producto. A través de una comunicación fluida y reuniones periódicas, identifico necesidades reales, definimos objetivos claros y acordamos plazos alcanzables. Durante todo el proceso, mantengo al cliente informado con actualizaciones constantes, asegurando un resultado funcional, alineado con sus expectativas y listo para implementarse.",
     },
   ],
 
