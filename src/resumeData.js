@@ -54,7 +54,7 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "PPR Consultoria",
+      CompanyName: "ReThinkTheWay",
       specialization: "Desarrollador Backend",
       MonthOfLeaving: "Abril",
       YearOfLeaving: "2025",
