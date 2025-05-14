@@ -37,7 +37,7 @@ export default class Social extends Component {
         </div>
         <div className="social-contact-resume">
           <a
-            href="https://drive.google.com/file/d/15bdpd5DPA_ec1036gjAs1dXQkX15TFYP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1U-Xdhn-67EGOmCacs3BN47TGMUkRyOUZ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="social-contact-resume-link cv-button"
