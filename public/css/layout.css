@@ -44,7 +44,7 @@ body {
 header {
    position: relative;
    height: 200px;
-   min-height: 745px;
+   min-height: 755px;
    width: 100%;
    background: #161415 url(../images/layered-waves-haikei\ \(2\).svg) no-repeat top center;
    background-size: cover !important;
