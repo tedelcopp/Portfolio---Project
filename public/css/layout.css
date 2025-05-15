@@ -1591,12 +1591,18 @@ footer .social-links li:first-child {
    background-color: var(--card-background);
    padding: 30px;
    border-radius: 15px;
-   width: 300px;
-   height: 350px; 
+   width: 550px;
+   min-height: 350px;
+   height: auto;
    text-align: center;
    transition: transform 0.3s ease;
    box-shadow: 0 8px 20px rgba(219, 219, 219, 0.2);
    cursor: pointer;
+ }
+ .tech-card p strong {
+   font-weight: 700;
+   font-size: 21px; /* igual que el párrafo */
+   color: var(--primary-color); /* opcional, para que resalte más */
  }
  
  .tech-card:hover {
