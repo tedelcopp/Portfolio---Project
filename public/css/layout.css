@@ -1595,8 +1595,8 @@ footer .social-links li:first-child {
  }
  .tech-card p strong {
    font-weight: 700;
-   font-size: 21px; /* igual que el párrafo */
-   color: var(--primary-color); /* opcional, para que resalte más */
+   font-size: 21px; 
+   color: var(--primary-color); 
  }
  
  .tech-card:hover {
