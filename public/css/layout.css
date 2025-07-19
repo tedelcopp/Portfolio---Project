@@ -245,7 +245,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* Version Ordenador  */
 #about {
-   background: #2B2B2B;
+   background: #FFFFFF;
    padding-top: 30px;
    padding-bottom: 30px;
    user-select: none;
@@ -254,15 +254,19 @@ ul#nav li.current a {
    justify-content: center;
    align-items: center;
 }
+.highlight {
+  font-weight: 600;
+  color: #222; 
+}
 
 #about a,
 #about a:visited {
-   color: #fff;
+   color: #222;
 }
 
 #about h2 {
    font: 30px/35px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #222;
    text-align: center;
    margin-bottom: 22px;
    border-bottom: 3.5px solid #F06000;
@@ -273,7 +277,7 @@ ul#nav li.current a {
 #about p {
    width: 100%;
    font-size: 18.5px;
-   color: #fff;
+   color: #222;
    line-height: 2.0em;
    font-family: system-ui;
 }
@@ -361,6 +365,10 @@ button.jumping {
 
 /* About Screens Responsive  */
 @media (max-width: 767px) {
+   .highlight {
+  font-weight: 600;
+  color: #f0f0f0; 
+}
    #about {
       margin: 0 auto;
    }

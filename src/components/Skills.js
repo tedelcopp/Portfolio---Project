@@ -44,7 +44,7 @@ export default class Skills extends Component {
               sumando experiencia en{" "}
               <strong>infraestructura en Oracle Cloud</strong>, configurando{" "}
               <strong>servidores</strong>, <strong>servicios</strong> y
-              <strong>bases de datos</strong> para entornos productivos.
+              <strong> bases de datos</strong> para entornos productivos.
             </p>
           </div>
         </div>
