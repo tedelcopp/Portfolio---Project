@@ -113,16 +113,6 @@ let resumeData = {
       urldeploy: "https://darwinstudiocode.vercel.app/",
       stack: "Next.js | React | Tailwind CSS | React Hot Toast | React Lucide.",
     },
-    // {
-    //   name: "Patch & Me",
-    //   description:
-    //     "E-commerce dedicado a los entusiastas de los parches, ofrece una experiencia única de compra y descubrimiento de parches personalizados para prendas. Con una interfaz moderna y fácil de usar, la aplicación permite a los usuarios explorar una amplia selección de parches.",
-    //   imgurl: require("./images/PatchMe - Project.png"),
-    //   target: "_blank",
-    //   urlgithub: "https://github.com/tedelcopp/PatchMe-Front",
-    //   urldeploy: "https://patch-me-front.vercel.app/",
-    //   stack: " JavaScript | React.JS | BootStrap | CSS.",
-    // },
   ],
 };
 
