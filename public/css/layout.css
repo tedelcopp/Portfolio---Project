@@ -480,7 +480,7 @@ button.jumping {
 }
 .cv-button {
    font-family: 'opensans-bold', sans-serif;
-   background-color: #606060;
+   background-color: #11ABB0;
    padding: 15px 30px;
    color: whitesmoke;
    border-radius: 50px;
@@ -492,7 +492,7 @@ button.jumping {
  }
  
  .cv-button:hover {
-   background-color: #11ABB0;
+   background-color: #606060;
    color: whitesmoke;
    transform: translateY(-5px);
  }
