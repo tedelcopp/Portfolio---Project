@@ -60,7 +60,7 @@ export default class About extends Component {
                 empresa argentina con clientes en{" "}
                 <span className="highlight">Estados Unidos</span>. En estos
                 entornos colaboro junto a otros profesionales y sigo
-                consolidando mis conocimientos en contextos técnicos reales,
+                consolidando mis conocimientos en entornos técnicos reales,
                 incorporando nuevas herramientas y buenas prácticas.
               </p>
             </div>
