@@ -46,7 +46,7 @@ export default class Header extends Component {
               {/* <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 {resumeData.roleDescription}
               </h3> */}
-              <hr />
+              {/* <hr /> */}
             </div>
           </div>
 
