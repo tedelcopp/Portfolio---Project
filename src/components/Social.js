@@ -7,7 +7,7 @@ export default class Social extends Component {
   render() {
     return (
       <div className="social-contact-container">
-        <h2>+ Información</h2>
+        <h2 className="social-title">+ Información</h2>
         <div className="social-contact-icons">
           <a
             href="https://www.linkedin.com/in/edelcopp/"
