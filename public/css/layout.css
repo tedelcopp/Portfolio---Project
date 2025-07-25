@@ -38,7 +38,6 @@ body {
 header {
    position: relative;
    height: 200px;
-   min-height: 755px;
    width: 100%;
    background: #161415 url(../images/layered-waves-haikei\ \(2\).svg) no-repeat top center;
    background-size: cover !important;
@@ -85,7 +84,7 @@ header .banner-text h1 {
 
 header .banner-text h3 {
    font-family: 'librebaskerville-regular', serif;
-   font-size: 20px;
+   font-size: 24px;
    line-height: 2.0em;
    color: #A8A8A8;
    margin: 10px auto;

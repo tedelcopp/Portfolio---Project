@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
   roleDescription:
-    "Desarrollador de Buenos Aires, Argentina. A lo largo de mi recorrido profesional, trabajé en diversos proyectos que no solo reforzaron mis conocimientos técnicos, sino que también me ayudaron a desarrollar habilidades blandas como la comunicación efectiva, la organización del trabajo y la colaboración en equipo. Comencé con un enfoque orientado al frontend, pero con el tiempo fui consolidando mi perfil como desarrollador full stack, adquiriendo un interés creciente en el desarrollo backend. Mi experiencia en proyectos de integración de servicios, gestión de bases de datos y construcción de soluciones escalables me permitió profundizar mis conocimientos en esta área. Actualmente me desarrollo como programador backend en RethinkTheWay, donde continúo aplicando y ampliando mis habilidades. Disfruto enfrentar nuevos desafíos, adaptarme a distintos entornos de trabajo y seguir aprendiendo nuevas tecnologías para continuar creciendo como profesional en el área del desarrollo.",
+    "Estudiante de Desarrollo de Software. Backend Developer en RethinkTheWay. Freelancer con base en Buenos Aires",
   socialLinks: [
     {
       name: "linkedin",
