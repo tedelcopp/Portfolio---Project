@@ -8,9 +8,9 @@ export default class Skills extends Component {
         <h1>Tecnologías</h1>
         <p>
           Trabajo con una variedad de tecnologías en el mundo del Desarrollo
-          Web, desde el FrontEnd hasta el BackEnd.
+          Web, desde el <strong>FrontEnd</strong> hasta el{" "}
+          <strong>BackEnd</strong>.
         </p>
-
         <div className="tech-categories">
           <div className="tech-card">
             <div className="tech-icon">

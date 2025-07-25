@@ -1579,9 +1579,13 @@ footer .social-links li:first-child {
    font-size: 21px;
    margin-bottom: 50px;
    margin-top: 30px; 
-   color: var(--text-color);
+   color: #222;
  }
- 
+ p strong {
+  font-weight: bold;
+  font-size: inherit;
+}
+
  .tech-categories {
    display: flex;
    justify-content: center;
@@ -1651,4 +1655,8 @@ footer .social-links li:first-child {
       text-transform: uppercase;
       margin-bottom: 30px; 
     }
+     p strong {
+  font-weight: bold;
+  font-size: inherit;
+}
  }
