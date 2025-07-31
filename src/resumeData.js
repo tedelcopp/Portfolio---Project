@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
   roleDescription:
-    "Estudiante de Desarrollo de Software. Backend Developer en RethinkTheWay. Freelancer con base en Buenos Aires",
+    "Estudiante de Desarrollo de Software. Backend Developer en RethinkTheWay. Freelancer con base en Buenos Aires.",
   socialLinks: [
     {
       name: "linkedin",
@@ -61,7 +61,7 @@ let resumeData = {
       MonthOfLeaving: "Abril",
       YearOfLeaving: "2025",
       Achievements:
-        "Me desempeño en la actualización y mantenimiento de un servidor cloud existente como parte de la solución CRM de una empresa en México. Me encargo de la configuración del entorno con Docker y Docker Compose, definiendo servicios, redes y volúmenes personalizados para asegurar un despliegue reproducible y estable. También gestiono bases de datos PostgreSQL, trabajando con variables .env para entornos seguros. Además, implementé la integración de Chatwoot con la API externa Evolution v2, conectando directamente con la base de datos del sistema interno. Esto permite sincronizar información clave en tiempo real dentro de las conversaciones del CRM. Esta experiencia está fortaleciendo mis habilidades en la administración remota, la integración de sistemas y la operación eficiente de plataformas en la nube.",
+        "Encargado del diseño e implementación de soluciones internas para centralizar la comunicación de la empresa. Desarrollé una integración que unifica canales como <strong>WhatsApp (Baileys)</strong>, correo electrónico y Evolution API con Chatwoot, permitiendo la gestión de mensajes en un solo entorno. Automatizo servicios con Docker, administro servidores Linux y gestiono bases de datos PostgreSQL. Participo en el mantenimiento y configuración de la infraestructura en Oracle Cloud. Actualmente colaboro en el desarrollo y personalización de sitios WordPress, aplicando diseños extraídos de Figma. ",
     },
     {
       CompanyName: "GAOTek Inc.",
@@ -69,7 +69,7 @@ let resumeData = {
       MonthOfLeaving: "Marzo",
       YearOfLeaving: "2025",
       Achievements:
-        "Durante esta pasantía, colaboré en el desarrollo y creación de sitios web utilizando WordPress y WooCommerce, trabajando sobre requerimientos definidos por la empresa. También participé en la carga y administración de productos para la base de datos del e-commerce, asegurando una presentación clara y organizada del catálogo. Mantuve una comunicación fluida con el equipo a través de tres reuniones semanales en inglés, donde compartía avances, recibía retroalimentación y coordinaba los siguientes pasos. Esta experiencia fortaleció mis habilidades en desarrollo web, gestión de contenido y trabajo colaborativo en un entorno profesional e internacional.",
+        "Durante esta pasantía, colaboré en el desarrollo y creación de sitios web utilizando WordPress y WooCommerce, trabajando sobre requerimientos definidos por la empresa. También participé en la carga y administración de productos para la base de datos del e-commerce, asegurando una presentación clara y organizada del catálogo. Mantuve una comunicación fluida con el equipo a través de reuniones semanales en inglés, donde compartía avances, recibía retroalimentación y coordinaba los siguientes pasos. Esta experiencia fortaleció mis habilidades en desarrollo web, gestión de contenido y trabajo colaborativo en un entorno profesional e internacional.",
     },
     {
       CompanyName: "Frelance",
@@ -77,7 +77,7 @@ let resumeData = {
       MonthOfLeaving: "Noviembre",
       YearOfLeaving: "2024",
       Achievements:
-        "Transformo ideas en soluciones digitales concretas, acompañando a cada cliente desde la concepción inicial hasta la entrega final del producto. A través de una comunicación fluida y reuniones periódicas, identifico necesidades reales, definimos objetivos claros y acordamos plazos alcanzables. Durante todo el proceso, mantengo al cliente informado con actualizaciones constantes, asegurando un resultado funcional, alineado con sus expectativas y listo para implementarse.",
+        "Desarrollo soluciones digitales tanto en WordPress como con código personalizado, adaptadas a proyectos propios o requerimientos de clientes. Participo desde la etapa inicial de planificación hasta la entrega final, integrando diseño, desarrollo y contenido. Trabajo con personalización de temas y plugins, diseño responsivo y funcionalidades a medida. También colaboro en la carga de contenido, optimización visual y puesta en marcha del sitio, manteniendo una comunicación fluida con cada cliente durante todo el proceso.",
     },
   ],
 

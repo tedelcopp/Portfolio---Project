@@ -2,6 +2,61 @@ import React, { Component } from "react";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    const highlightKeywords = (text, keywords) => {
+      let result = text;
+      keywords.forEach((keyword) => {
+        const regex = new RegExp(`\\b(${keyword})\\b`, "gi");
+        result = result.replace(regex, "<strong>$1</strong>");
+      });
+      return result;
+    };
+
+    const keywords = [
+      "Docker",
+      "Linux",
+      "PostgreSQL",
+      "WhatsApp",
+      "Baileys",
+      "Evolution API",
+      "Chatwoot",
+      "Oracle Cloud",
+      "WordPress",
+      "Figma",
+      "correo electrónico",
+      "WooCommerce",
+      "e-commerce",
+      "base de datos",
+      "catálogo",
+      "reuniones",
+      "reuniones periódicas",
+      "inglés",
+      "desarrollo web",
+      "gestión de contenido",
+      "trabajo colaborativo",
+      "entorno profesional",
+      "entorno internacional",
+      "internacional",
+      "soluciones digitales",
+      "WordPress",
+      "código personalizado",
+      "proyectos propios",
+      "requerimientos de clientes",
+      "planificación",
+      "entrega final",
+      "diseño",
+      "desarrollo",
+      "contenido",
+      "temas",
+      "plugins",
+      "diseño responsivo",
+      "funcionalidades a medida",
+      "carga de contenido",
+      "optimización visual",
+      "puesta en marcha",
+      "comunicación fluida",
+    ];
+
     return (
       <section id="resume">
         <div className="row education">
@@ -22,7 +77,9 @@ export default class Resume extends Component {
                         {item.specialization}
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
+                          <strong>
+                            {item.MonthOfPassing} {item.YearOfPassing}
+                          </strong>
                         </em>
                       </p>
                       <p>{item.Achievements}</p>
@@ -47,13 +104,20 @@ export default class Resume extends Component {
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
-                        {item.specialization}
+                        <strong>{item.specialization}</strong>
                         <span>&bull;</span>{" "}
                         <em className="date">
                           {item.MonthOfLeaving} {item.YearOfLeaving}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: highlightKeywords(
+                            item.Achievements,
+                            keywords
+                          ),
+                        }}
+                      />
                     </div>
                   </div>
                 );
