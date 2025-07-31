@@ -74,10 +74,12 @@ export default class Resume extends Component {
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
-                        {item.specialization}
+                        <span className="specialization">
+                          {item.specialization}
+                        </span>
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          <strong>
+                          <strong className="specialization">
                             {item.MonthOfPassing} {item.YearOfPassing}
                           </strong>
                         </em>
@@ -104,13 +106,18 @@ export default class Resume extends Component {
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
-                        <strong>{item.specialization}</strong>
+                        <span className="specialization">
+                          {item.specialization}
+                        </span>
                         <span>&bull;</span>{" "}
                         <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
+                          <strong className="specialization">
+                            {item.MonthOfLeaving} {item.YearOfLeaving}
+                          </strong>
                         </em>
                       </p>
                       <p
+                        style={{ color: "#000" }}
                         dangerouslySetInnerHTML={{
                           __html: highlightKeywords(
                             item.Achievements,
