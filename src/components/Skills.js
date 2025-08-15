@@ -40,11 +40,11 @@ export default class Skills extends Component {
               <strong> Node.js</strong> y <strong>Express</strong>. Trabajo con
               <strong> bases de datos relacionales (SQL)</strong> como{" "}
               <strong>PostgreSQL</strong> y<strong> MySQL</strong>, aplicando
-              buenas prácticas de estructuración y seguridad. Actualmente estoy
-              sumando experiencia en{" "}
-              <strong>infraestructura en Oracle Cloud</strong>, configurando{" "}
-              <strong>servidores</strong>, <strong>servicios</strong> y
-              <strong> bases de datos</strong> para entornos productivos.
+              buenas prácticas de estructuración y seguridad. Desarrollé
+              experiencia en <strong>infraestructura</strong> en{" "}
+              <strong>Oracle Cloud</strong>, configurando{" "}
+              <strong>servidores</strong>, <strong>servicios</strong> y{" "}
+              <strong>bases de datos</strong> para entornos productivos.
             </p>
           </div>
         </div>

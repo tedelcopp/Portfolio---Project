@@ -49,6 +49,12 @@ export default class Portfolio extends Component {
       "Hot",
       "Toast",
       "Lucide",
+      "Wordpress",
+      "PHP",
+      "Elementor",
+      "JavaScript",
+      "HTML",
+      "CSS",
     ];
 
     return (
@@ -74,6 +80,7 @@ export default class Portfolio extends Component {
                       <div className="portfolio-card-content">
                         <h2>{item.name}</h2>
                         <p
+                          className="portfolio-text"
                           dangerouslySetInnerHTML={{
                             __html: highlightKeywords(
                               item.description,
@@ -83,6 +90,7 @@ export default class Portfolio extends Component {
                         />
                         <div className="portfolio-footer">
                           <p
+                            className="portfolio-text-tech"
                             dangerouslySetInnerHTML={{
                               __html:
                                 "• <u>Tecnologías:</u> " +

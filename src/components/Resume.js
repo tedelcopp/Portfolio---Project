@@ -54,6 +54,7 @@ export default class Resume extends Component {
       "carga de contenido",
       "optimización visual",
       "puesta en marcha",
+      "proyectos puntuales",
       "comunicación fluida",
     ];
 

@@ -77,7 +77,7 @@ let resumeData = {
       MonthOfLeaving: "Noviembre",
       YearOfLeaving: "2024",
       Achievements:
-        "Desarrollo soluciones digitales tanto en WordPress como con código personalizado, adaptadas a proyectos propios o requerimientos de clientes. Participo desde la etapa inicial de planificación hasta la entrega final, integrando diseño, desarrollo y contenido. Trabajo con personalización de temas y plugins, diseño responsivo y funcionalidades a medida. También colaboro en la carga de contenido, optimización visual y puesta en marcha del sitio, manteniendo una comunicación fluida con cada cliente durante todo el proceso.",
+        "Desarrollo soluciones digitales tanto en WordPress como con código personalizado, adaptadas a proyectos propios, proyectos puntuales para empresas o requerimientos de clientes.. Participo desde la etapa inicial de planificación hasta la entrega final, integrando diseño, desarrollo y contenido. Trabajo con personalización de temas y plugins, diseño responsivo y funcionalidades a medida. También colaboro en la carga de contenido, optimización visual y puesta en marcha del sitio, manteniendo una comunicación fluida con cada cliente durante todo el proceso.",
     },
   ],
 
@@ -91,7 +91,17 @@ let resumeData = {
       urlgithub: "https://github.com/tedelcopp/MedApp-FrontEnd---Project",
       urldeploy: "https://themedapp.vercel.app/",
       stack:
-        " NextJS | TypeScript | Tailwind CSS | MySQL | React Hot Toast | React Lucide | Node.js | Express | Sequelize | DBeaver.",
+        "NextJS | TypeScript | Tailwind CSS | MySQL | React Hot Toast | React Lucide | Node.js | Express | Sequelize | DBeaver.",
+    },
+    {
+      name: "PPR Consultoría",
+      description:
+        "Desarrollé una Landing Page para una empresa de servicios web utilizando Next.js, con el objetivo de afianzar mis conocimientos en esta tecnología y mejorar la experiencia de usuario. Este proyecto cuenta con un diseño moderno y una estructura de navegación sencilla, permitiendo a los visitantes encontrar la información de manera rápida y eficiente. Implementé Tailwind CSS para estilizar la interfaz, React Hot Toast para notificaciones y React Lucide para iconografía, logrando una experiencia visual atractiva e interactiva. Además, incorporé botones de acción estratégicos para optimizar la conversión y la interacción del usuario.",
+      imgurl: require("./images/PPR Consultoria Project.png"),
+      target: "_blank",
+      urlgithub: "https://github.com/tedelcopp/Darwin-Studio-Code---Project",
+      urldeploy: "https://pprconsultoria.com/",
+      stack: "WordPress | PHP | Elementor | JavaScript | HTML | CSS.",
     },
     {
       name: "Finanzas Ya!",
@@ -101,7 +111,7 @@ let resumeData = {
       target: "_blank",
       urlgithub: "_blank",
       urldeploy: "https://finanzasya.com.ar/",
-      stack: "WordPress",
+      stack: "WordPress.",
     },
     {
       name: "Darwin Studio Code",
