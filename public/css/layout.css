@@ -745,7 +745,7 @@ button.jumping {
  
  .portfolio-card-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(450px, 5fr)); 
+    grid-template-columns: repeat(2, 1fr); /* 👈 siempre 2 columnas */
    gap: 40px;
    padding: 0 20px; 
  }
