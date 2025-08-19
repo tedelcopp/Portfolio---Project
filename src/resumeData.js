@@ -104,16 +104,6 @@ let resumeData = {
       stack: "WordPress.",
     },
     {
-      name: "PPR Consultoría",
-      description:
-        "Desarrollé una Landing Page para una empresa de servicios web utilizando Next.js, con el objetivo de afianzar mis conocimientos en esta tecnología y mejorar la experiencia de usuario. Este proyecto cuenta con un diseño moderno y una estructura de navegación sencilla, permitiendo a los visitantes encontrar la información de manera rápida y eficiente. Implementé Tailwind CSS para estilizar la interfaz, React Hot Toast para notificaciones y React Lucide para iconografía, logrando una experiencia visual atractiva e interactiva. Además, incorporé botones de acción estratégicos para optimizar la conversión y la interacción del usuario.",
-      imgurl: require("./images/PPR Consultoria Project.png"),
-      target: "_blank",
-      urlgithub: "https://github.com/tedelcopp/Darwin-Studio-Code---Project",
-      urldeploy: "https://pprconsultoria.com/",
-      stack: "WordPress | PHP | Elementor | JavaScript | HTML | CSS.",
-    },
-    {
       name: "Darwin Studio Code",
       description:
         "Desarrollé una Landing Page para una empresa de servicios web utilizando Next.js, con el objetivo de afianzar mis conocimientos en esta tecnología y mejorar la experiencia de usuario. Este proyecto cuenta con un diseño moderno y una estructura de navegación sencilla, permitiendo a los visitantes encontrar la información de manera rápida y eficiente. Implementé Tailwind CSS para estilizar la interfaz, React Hot Toast para notificaciones y React Lucide para iconografía, logrando una experiencia visual atractiva e interactiva. Además, incorporé botones de acción estratégicos para optimizar la conversión y la interacción del usuario.",
@@ -122,6 +112,16 @@ let resumeData = {
       urlgithub: "https://github.com/tedelcopp/Darwin-Studio-Code---Project",
       urldeploy: "https://darwinstudiocode.vercel.app/",
       stack: "Next.js | React | Tailwind CSS | React Hot Toast | React Lucide.",
+    },
+    {
+      name: "PPR Consultoría",
+      description:
+        "Desarrollé una Landing Page para una empresa de servicios web utilizando Next.js, con el objetivo de afianzar mis conocimientos en esta tecnología y mejorar la experiencia de usuario. Este proyecto cuenta con un diseño moderno y una estructura de navegación sencilla, permitiendo a los visitantes encontrar la información de manera rápida y eficiente. Implementé Tailwind CSS para estilizar la interfaz, React Hot Toast para notificaciones y React Lucide para iconografía, logrando una experiencia visual atractiva e interactiva. Además, incorporé botones de acción estratégicos para optimizar la conversión y la interacción del usuario.",
+      imgurl: require("./images/PPR Consultoria Project.png"),
+      target: "_blank",
+      urlgithub: "https://github.com/tedelcopp/Darwin-Studio-Code---Project",
+      urldeploy: "https://pprconsultoria.com/",
+      stack: "WordPress | PHP | Elementor | JavaScript | HTML | CSS.",
     },
   ],
 };
