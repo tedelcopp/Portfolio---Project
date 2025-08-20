@@ -385,6 +385,7 @@ ul#nav li.current a {
    font: 30px/35px 'opensans-bold', sans-serif;
    color: #222;
    text-align: center;
+     margin-top: 30px;
    margin-bottom: 22px;
    border-bottom: 3.5px solid #F06000;
    padding-bottom: 10px;
@@ -1320,7 +1321,7 @@ button.jumping {
    background: #161415 url(../images/blob-scene-haikei\ \(1\).svg) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
-   padding-top: 96px;
+   padding-top: 88px;
    padding-bottom: 102px;
    user-select: none;
 }
