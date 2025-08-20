@@ -4,6 +4,10 @@ import {
   FaDocker,
   FaWordpress,
   FaGitAlt,
+  FaJsSquare,
+  FaHtml5,
+  FaCss3Alt,
+  FaPhp,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -15,6 +19,9 @@ import {
 } from "react-icons/si";
 
 const skills = [
+  { icon: <FaHtml5 size={40} />, name: "HTML5" },
+  { icon: <FaCss3Alt size={40} />, name: "CSS3" },
+  { icon: <FaJsSquare size={40} />, name: "JavaScript" },
   { icon: <FaReact size={40} />, name: "React" },
   { icon: <SiNextdotjs size={40} />, name: "Next.js" },
   { icon: <SiTypescript size={40} />, name: "TypeScript" },
@@ -25,6 +32,7 @@ const skills = [
   { icon: <SiOracle size={40} />, name: "Oracle Cloud" },
   { icon: <FaDocker size={40} />, name: "Docker" },
   { icon: <FaWordpress size={40} />, name: "WordPress" },
+  { icon: <FaPhp size={40} />, name: "PHP" },
   { icon: <FaGitAlt size={40} />, name: "Git" },
 ];
 
