@@ -3,7 +3,7 @@ let resumeData = {
   name: "Tomás Edelcopp",
   role: "Full Stack Developer",
   roleDescription:
-    "Estudiante de Desarrollo de Software. Backend Developer en RethinkTheWay. Freelancer con base en Buenos Aires.",
+    "Estudiante de la Tecnicatura Superior en Desarrollo de Software. Backend Developer en RethinkTheWay. Freelancer con base en Buenos Aires.",
   socialLinks: [
     {
       name: "linkedin",
