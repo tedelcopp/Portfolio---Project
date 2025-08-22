@@ -1312,7 +1312,7 @@ button.jumping {
    background: #161415 url(../images/blob-scene-haikei\ \(1\).svg) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
-   padding-top: 88px;
+   padding-top: 66px;
    padding-bottom: 102px;
    user-select: none;
 }
